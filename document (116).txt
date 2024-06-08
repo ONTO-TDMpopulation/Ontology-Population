@@ -1,0 +1,5 @@
+Tango Tree is a data structure for efficient dynamic connectivity and range minimum/maximum query on a set of elements. It is a type of balanced binary search tree that uses finger trees as the underlying data structure to achieve fast and efficient operations. 
+
+The Tango Tree is designed to support both fast insertions and deletions as well as fast minimum/maximum query operations in a dynamic setting.
+
+Some of the key features and advantages of Tango Tree include its efficient time and space complexity, ability to support a wide range of dynamic connectivity and range minimum/maximum query problems, and its versatility as a general-purpose data structure. Tango Tree is also known for its robustness and stability, as it is less likely to degenerate into an unbalanced tree structure compared to other dynamic binary search trees.

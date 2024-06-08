@@ -1,0 +1,3 @@
+A multi-dimensional array can be termed as an array of arrays that stores homogeneous data in tabular form. Data in multidimensional arrays is generally stored in row-major order in the memory.
+
+The total number of elements that can be stored in a multidimensional array can be calculated by multiplying the size of all the dimensions.

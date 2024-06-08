@@ -1,0 +1,6 @@
+R-tree is a tree data structure used for storing spatial data indexes in an efficient manner. R-trees are highly useful for spatial data queries and storage. Some of the real-life applications are: 
+
+Indexing multi-dimensional information.
+Handling geospatial coordinates.
+Implementation of virtual maps.
+Handling game data.

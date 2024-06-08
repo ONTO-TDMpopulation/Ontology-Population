@@ -1,0 +1,13 @@
+a suffix tree  is a compressed trie containing all the suffixes of the given text as their keys and positions in the text as their values. Suffix trees allow particularly fast implementations of many important string operations.
+
+Suffix trees can be used to solve a large number of string problems that occur in text-editing, free-text search, computational biology and other application areas. Primary applications include:
+
+String search, in O(m) complexity, where m is the length of the sub-string (but with initial O(n) time required to build the suffix tree for the string).
+
+Finding the longest repeated substring.
+
+Finding the longest common substring.
+
+Finding the longest palindrome in a stringSuffix trees are often used in bioinformatics applications, searching for patterns in DNA or protein sequences (which can be viewed as long strings of characters). The ability to search efficiently with mismatches might be considered their greatest strength. Suffix trees are also used in data compression; they can be used to find repeated data, and can be used for the sorting stage of the Burrows–Wheeler transform. Variants of the LZW compression schemes use suffix trees (LZSS). A suffix tree is also used in suffix tree clustering, a data clustering algorithm used in some search engines.
+
+

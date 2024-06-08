@@ -1,0 +1,25 @@
+The word Algorithm means A set of finite rules or instructions to be followed in calculations or other problem-solving operations. Or, A procedure for solving a mathematical problem in a finite number of steps that frequently involves recursive operations. Therefore Algorithm refers to a sequence of finite steps to solve a particular problem.
+
+it must have the following characteristics:
+
+Clear and Unambiguous: The algorithm should be unambiguous. Each of its steps should be clear in all aspects and must lead to only one meaning.
+
+Well-Defined Inputs: If an algorithm says to take inputs, it should be well-defined inputs. It may or may not take input.
+
+Well-Defined Outputs: The algorithm must clearly define what output will be yielded and it should be well-defined as well. It should produce at least 1 output.
+
+Finite-ness: The algorithm must be finite, i.e. it should terminate after a finite time.
+
+Feasible: The algorithm must be simple, generic, and practical, such that it can be executed with the available resources. It must not contain some future technology or anything.
+
+Language Independent: The Algorithm designed must be language-independent, i.e. it must be just plain instructions that can be implemented in any language, and yet the output will be the same, as expected.
+
+Input: An algorithm has zero or more inputs. Each that contains a fundamental operator must accept zero or more inputs.
+
+Output: An algorithm produces at least one output. Every instruction that contains a fundamental operator must accept zero or more inputs.
+
+Definiteness: All instructions in an algorithm must be unambiguous, precise, and easy to interpret. By referring to any of the instructions in an algorithm one can clearly understand what is to be done. Every fundamental operator in instruction must be defined without any ambiguity.
+
+Finiteness: An algorithm must terminate after a finite number of steps in all test cases. Every instruction which contains a fundamental operator must be terminated within a finite amount of time. Infinite loops or recursive functions without base conditions do not possess finiteness.
+
+Effectiveness: An algorithm must be developed by using very basic, simple, and feasible operations so that one can trace it out by using just paper and pencil.

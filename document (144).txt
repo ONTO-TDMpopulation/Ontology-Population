@@ -1,0 +1,12 @@
+Branch and bound algorithms are used to find the optimal solution for combinatory, discrete, and general mathematical optimization problems. 
+
+A branch and bound algorithm provide an optimal solution to an NP-Hard problem by exploring the entire search space. Through the exploration of the entire search space, a branch and bound algorithm identify possible candidates for solutions step-by-step.
+
+The Branch  algorithms incorporate different search techniques to traverse a state space tree. 
+
+LC search (Least Cost Search): It uses a heuristic cost function to compute the bound values at each node. Nodes are added to the list of live nodes as soon as they get generated.
+The node with the least value of a cost function selected as a next E-node.
+
+BFS(Breadth First Search): It is also known as a FIFO search. It maintains the list of live nodes in first-in-first-out order i.e, in a queue, The live nodes are searched in the FIFO order to make them next E-nodes.
+
+DFS (Depth First Search): It is also known as a LIFO search. It maintains the list of live nodes in last-in-first-out order i.e. in a stack.

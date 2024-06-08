@@ -1,0 +1,5 @@
+A scapegoat tree is a self-balancing variant of the binary search tree. Unlike other variants like the red-black tree and the AVL tree, the scapegoat tree is an unencumbered data structure. That is, it doesn't need an extra storage per node in the tree. The low overhead and easy implementation makes the scapegoat tree a very attractive data structure. Scapegoat trees should be used in applications where insert and lookup operations dominate because that's where the scapegoat tree is most efficient.
+
+The intuition behind the scapegoat tree is one we've all had to deal with. When something goes wrong, we need to blame a scapegoat. Once we've identified our scapegoat, they can be left to deal with the problem. After an insertion, the scapegoat finds a single node whose subtree is not balanced. That is the scapegoat. This scapegoat's subtree is then rebalanced.
+
+Scapegoat trees are extremely flexible in their implementation. They can be optimized for insertions at the expense of deletions and searching or vice versa. The programmer can tailor their implementation of the scapegoat tree to their specific application, making this data structure very attractive.

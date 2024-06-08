@@ -1,0 +1,9 @@
+Palindromic Tree is a tree-based data structure designed for efficient string processing tasks such as pattern matching, string searching, and spell-checking. It is an advanced data structure based on a trie that is optimized for palindromic strings.
+
+A Palindromic Tree is a trie-like data structure that stores all the substrings of a given string in such a way that it can efficiently handle string queries such as finding the longest palindromic substring or counting the number of palindromic substrings. It works by maintaining a tree of all the palindromic substrings of the input string.
+
+A palindromic tree is a data structure used in string algorithms and computer science. It’s designed to efficiently process strings and identify palindromes within them.
+
+Insertion: The insertion process in a palindromic tree involves adding new nodes to the tree structure to represent new substrings in the input string.
+
+Query Processing: Query processing in a palindromic tree involves finding specific substrings within the input string and identifying whether they are palindromic substrings.

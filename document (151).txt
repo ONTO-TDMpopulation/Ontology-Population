@@ -1,0 +1,13 @@
+A file is a collection of related records.
+
+In the context of databases, a file corresponds to a table where each row is a record and each column is a field.
+
+The structure of a file is defined in its file specification or schema, which includes the names of fields, their order, and their data types.
+
+Files can be sequential files, where records must be accessed in the same order they were added, or random access files, where records can be accessed in any order.
+
+Files can also be indexed, meaning they have an index that allows quick access to any record, similar to the index of a book.
+
+Text files store data in human-readable form, while binary files store data in a format that can only be read by a computer.
+
+Files are stored on a permanent storage medium, such as a hard disk, which allows data to be retained even when the computer is turned off.

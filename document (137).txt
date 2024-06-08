@@ -1,0 +1,5 @@
+An algorithm that uses random numbers to decide what to do next anywhere in its logic is called a Randomized Algorithm. For example, in Randomized Quick Sort, we use a random number to pick the next pivot (or we randomly shuffle the array). And in Karger’s algorithm, we randomly pick an edge. 
+
+Some randomized algorithms have deterministic time complexity. For example, this implementation of Karger’s algorithm has time complexity is O(E). Such algorithms are called Monte Carlo Algorithms and are easier to analyse for worst case. 
+
+On the other hand, time complexity of other randomized algorithms (other than Las Vegas) is dependent on value of random variable. Such Randomized algorithms are called Las Vegas Algorithms. These algorithms are typically analysed for expected worst case. To compute expected time taken in worst case, all possible values of the used random variable needs to be considered in worst case and time taken by every possible value needs to be evaluated. Average of all evaluated times is the expected worst case time complexity. 

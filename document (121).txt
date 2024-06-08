@@ -1,0 +1,12 @@
+Asymptotic notation is a way to describe the running time or space complexity of an algorithm based on the input size. It is commonly used in complexity analysis to describe how an algorithm performs as the size of the input grows. The three most commonly used notations are Big O, Omega, and Theta.
+
+Usually, the time required by an algorithm falls under three types:
+Best Case − Minimum time required for program execution.
+Average Case − Average time required for program execution.
+Worst Case − Maximum time required for program execution.
+
+Big O notation: This notation provides an upper bound on the growth rate of an algorithm’s running time or space usage. It represents the worst-case scenario, i.e., the maximum amount of time or space an algorithm may need to solve a problem. 
+
+Omega notation: This notation provides a lower bound on the growth rate of an algorithm’s running time or space usage. It represents the best-case scenario, i.e., the minimum amount of time or space an algorithm may need to solve a problem. 
+
+Theta notation: This notation provides both an upper and lower bound on the growth rate of an algorithm’s running time or space usage. It represents the average-case scenario, i.e., the amount of time or space an algorithm typically needs to solve a problem. 

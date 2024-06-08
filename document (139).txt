@@ -1,0 +1,21 @@
+FIFO (First In First Out) is a method of organizing, handling, and manipulating the data structure of elements in a computing system. It’s a type of data handling which prioritizes the processes that come first- meaning, it will first remove or append those elements that came first. FIFO follows a data structure of queue-type. As a result, the oldest element to encounter this operation stays at the front for processing.
+
+The oldest entry gets to be at the head of the queue. It is analogous to FCFS (first come, first serve). FIFO is opposite to LIFO (last in, first out), in which the system processes the youngest/ most recent (top of the stack) entry first.
+
+FIFO needs to allow two fundamental operations:
+
+dequeue – It lets the system remove the first element from the container.
+
+enqueue – The system appends/adds elements to the end of the container.
+
+FIFO implements a linear data structure known as the Queue.
+
+It inserts the new element below the existing one in the queue. This way, the oldest one stays on the top, making it easy to be taken out.
+
+The first process/element that enters this approach gets out first.
+
+Every element gets removed/added from the end. So there remain no criteria of hold and wait.
+
+The FIFO approach acts as an operating system (OS) algorithm. This way, every process gets CPU time in the order they arrive.
+
+It consumes a fixed amount of memory as the utilization of memory does not vary with each operation.

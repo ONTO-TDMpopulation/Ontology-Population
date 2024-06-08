@@ -1,0 +1,27 @@
+LIFO (Last In First Out) is one of the methods of processing data. It is the opposite of FIFO. LIFO works on the principle that the items that entered the last are the first to be removed. Computers sometimes deploy the method when extracting data from the data buffer or an array. Whenever a program needs access to the most recently entered information, the system deploys this LIFO method. On the contrary, the FIFO method (First In First Out) comes into play when a program needs to retrieve information in the order of its entry.
+
+Technically, LIFO works on the principle that the last element stored will be the first to be removed. It happens by inserting the recent element above the existing one. This way, the newest one gets removed from the top. And the oldest element (that the operation encountered first) gets out at the last because it stays at the bottom.
+
+The LIFO principle is very effective in implementing Stack. It is a linear data structure.
+
+You can both- add and remove elements from the same end.
+
+The end in LIFO is known as the top.
+
+The utilization of memory varies with each operation. So, the memory consumed has no fixed amount.
+
+It requires no fixed size for consuming memories.
+
+The LIFO approach comes into play in computing as a queuing theory. It refers to how various data structures store the items.
+
+One can perform these general operations on a Stack data structure:
+
+Push operation – This term means that you can insert an element at the top of the stack.
+
+Peek operation – It means that you can return the topmost element without having to delete it from the stack.
+
+Pop operation – This term means you can remove the element from the top of the stack.
+
+Some data structures preferably use the LIFO approach for processing data. Such structures include Stacks and their other variants.
+
+Computers may also sometimes use LIFO when a user needs to extract data from a data buffer or an array. The LIFO approach works the best when it is required to get the most recently entered information.

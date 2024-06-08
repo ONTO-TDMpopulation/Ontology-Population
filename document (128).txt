@@ -1,0 +1,18 @@
+A spanning tree is a subset of Graph G, which has all the vertices covered with minimum possible number of edges. Hence, a spanning tree does not have cycles and it cannot be disconnected.
+
+Following are a few properties of the spanning tree connected to a graph:
+
+A connected graph G can have more than one spanning tree.
+
+All possible spanning trees of graph G, have the same number of edges and vertices.
+
+The spanning tree does not have any cycle (loops).
+
+Removing one edge from the spanning tree will make the graph disconnected, i.e. the spanning tree is minimally connected.
+
+Adding one edge to the spanning tree will create a circuit or loop, i.e. the spanning tree is maximally acyclic.
+
+Spanning tree is basically used to find a minimum path to connect all nodes in a graph. Common application of spanning trees are:
+Civil Network Planning.
+Computer Network Routing Protocol.
+Cluster Analysis.

@@ -1,0 +1,4 @@
+An SPQRtree is a  tree data structure used in computer science, and more specifically graph algorithms, to represent the triconnected components of a graph. The SPQRtree of a graph may be constructed in linear time and has several applications in dynamic graph algorithms and graph drawing.
+
+
+

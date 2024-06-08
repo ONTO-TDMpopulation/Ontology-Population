@@ -1,0 +1,9 @@
+Approximation algorithms are algorithms designed to solve problems that are not solvable in polynomial time for approximate solutions. These problems are known as NP complete problems. These problems are significantly effective to solve real world problems, therefore, it becomes important to solve them using a different approach.
+
+NP complete problems can still be solved in three cases: the input could be so small that the execution time is reduced, some problems can still be classified into problems that can be solved in polynomial time, or use approximation algorithms to find near-optima solutions for the problems.
+
+Few popular examples of the approximation algorithms are −
+Vertex Cover Algorithm.
+Set Cover Problem.
+Travelling Salesman Problem (Approximation Approach).
+The Subset Sum Problem.

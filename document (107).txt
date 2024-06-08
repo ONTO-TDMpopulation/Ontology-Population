@@ -1,0 +1,9 @@
+In computer science, a soft heap is a variant on the simple heap data structure that has constant amortized time complexity for five types of operations. This is achieved by carefully "corrupting" (increasing) the keys of at most a constant number of values in the heap.
+
+The constant time operations are:
+
+Creation: Create a new soft heap.
+Insertion: Insert an element into a soft heap.
+concatenation: Combine the contents of two soft heaps into one, destroying both.
+Deletion: Delete an element from a soft heap.
+Finding Minimum: Get the element with minimum key in the soft heap.

@@ -1,0 +1,8 @@
+A sorted array is an array data structure in which each element is sorted in numerical, alphabetical, or some other order, and placed at equally spaced addresses in computer memory. It is typically used in computer science to implement static lookup tables to hold multiple values which have the same data type. Sorting an array is useful in organising data in ordered form and recovering them rapidly.
+
+In a sorted array, a search operation is performed for the possible position of the given element by using Binary search, and then an insertion operation is performed followed by shifting the elements. And in an unsorted array, the insertion operation is faster as compared to the sorted array because we don’t have to care about the position at which the element is placed.
+
+In the deletion operation, the element to be deleted is searched using binary search, and then the deletion is performed followed by shifting the elements.
+
+
+

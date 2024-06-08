@@ -1,0 +1,10 @@
+In computer science, a disjoint-set data structure, also called a union–find data structure or merge–find set, is a data structure that stores a collection of disjoint (non-overlapping) sets. Equivalently, it stores a partition of a set into disjoint subsets. It provides operations for adding new sets, merging sets (replacing them by their union), and finding a representative member of a set. The last operation makes it possible to find out efficiently if any two elements are in the same or different sets.
+
+A data structure that stores non overlapping or disjoint subset of elements is called disjoint set data structure.
+
+Disjoint-set data structures support three operations: Making a new set containing a new element; Finding the representative of the set containing a given element; and Merging two sets.
+
+A union-find algorithm is an algorithm that performs two useful operations on such a data structure:
+
+Find: Determine which subset a particular element is in. This can determine if two elements are in the same subset.
+Union: Join two subsets into a single subset. Here first we have to check if the two subsets belong to the same set. If not, then we cannot perform union. 

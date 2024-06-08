@@ -1,0 +1,25 @@
+A data type is an attribute associated with a piece of data that tells a computer system how to interpret its value. Understanding data types ensures that data is collected in the preferred format and the value of each property is as expected. following are the common used data type: 
+
+Integer (int): It is the most common numeric data type used to store numbers without a fractional component (-707, 0, 707).
+
+Floating Point (float): It is also a numeric data type used to store numbers that may have a fractional component like monetary values do (707.07, 0.7, 707.00).
+
+Character (char): It is used to store a single letter, digit, punctuation mark, symbol, or blank space.
+
+String (str or text): It is a sequence of characters and the most commonly used data type to store text. Additionally, a string can also include digits and symbols, however, it is always treated as text.
+
+Boolean (bool): It represents the values true and false. When working with the boolean data type, it is helpful to keep in mind that sometimes a boolean value is also represented as 0 (for false) and 1 (for true).
+
+Enumerated type (enum): It contains a small set of predefined unique values (also known as elements or enumerators) that can be compared and assigned to a variable of enumerated data type.
+
+The values of an enumerated type can be text-based or numerical. In fact, the boolean data type is a pre-defined enumeration of the values true and false.
+
+Date: typically stores a date in the YYYY-MM-DD format (ISO 8601 syntax).
+
+Time: Stores a time in the hh:mm:ss format. Besides the time of the day, it can also be used to store the time elapsed or the time interval between two events which could be more than 24 hours. 
+
+Datetime: Stores a value containing both date and time together in the YYYY-MM-DD hh:mm:ss format.
+
+Timestamp: Typically represented in Unix time, a timestamp represents the number of seconds that have elapsed since midnight (00:00:00 UTC), 1st January 1970.
+
+It is typically used by computer systems to log the precise date and time of an event, down to the number of seconds, in a format that is unaffected by time zones. Therefore unlike datetime, timestamp remains the same irrespective of your geographical location.

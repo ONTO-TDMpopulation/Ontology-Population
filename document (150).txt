@@ -1,0 +1,10 @@
+In computer science, an identifier is a name given to a programming language entity such as a variable, function, class, module, or any other user-defined item. Identifiers are used to uniquely identify these entities within a program. Some of the kinds of entities an identifier might denote include variables, data types, labels, subroutines, and modules.
+
+Identifiers are typically composed of letters (uppercase or lowercase), digits, and underscores.
+Identifiers usually cannot start with a digit.
+
+Identifiers are case-sensitive in most programming languages, meaning that uppercase and lowercase letters are considered distinct.
+
+Identifiers should be chosen to be meaningful and descriptive to make the code more readable and maintainable.
+
+Identifiers should not be the same as keywords or reserved words in the programming language.

@@ -1,0 +1,13 @@
+A non-linear data structure is another important type in which data elements are not arranged sequentially; mainly, data elements are arranged in random order without forming a linear structure.
+
+Data elements are present at the multilevel, for example, tree.
+
+In trees, the data elements are arranged in the hierarchical form, whereas in graphs, the data elements are arranged in random order, using the edges and vertex.
+
+Multiple runs are required to traverse through all the elements completely. Traversing in a single run is impossible to traverse the whole data structure.
+
+Each element can have multiple paths to reach another element.
+
+Non-linear data structures are not easy to implement in comparison to linear data structure. It utilizes computer memory efficiently in comparison to a linear data structure.
+
+The data structure where data items are not organized sequentially is called a non-linear data structure. In other words, data elements of the non-linear data structure could be connected to more than one element to reflect a special relationship among them.

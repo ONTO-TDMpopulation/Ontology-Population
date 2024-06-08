@@ -1,0 +1,52 @@
+The graph data structure is used to store data required in computation to solve many computer programming problems. Graphs are used to address real-world problems in which the problem area is represented as a network, such as telephone networks, circuit networks, LinkedIn, Facebook, etc.
+The graph is an abstract data type used to implement the undirected and directed graph notions from graph theory in mathematics.
+
+So depending upon the position of these nodes and vertices, there are different types of graphs, such as:
+
+The Null Graph is also known as the order zero graph. The term "null graph" refers to a graph with an empty edge set. In other words, a null graph has no edges, and the null graph is present with only isolated vertices in the graph.
+
+Trivial Graph: A graph is called a trivial graph if it has only one vertex present in it. The trivial graph is the smallest possible graph that can be created with the least number of vertices that is one vertex only.
+
+Non-Directed Graph: A graph is called a non-directed graph if all the edges present between any graph nodes are non-directed. By non-directed edges, we mean the edges of the graph that cannot be determined from the node it is starting and at which node it is ending. All the edges for a graph need to be non-directed to call it a non-directed graph. All the edges of a non-directed graph don't have any direction.
+
+Directed Graph: Another name for the directed graphs is digraphs. A graph is called a directed graph or digraph if all the edges present between any vertices or nodes of the graph are directed or have a defined direction. By directed edges, we mean the edges of the graph that have a direction to determine from which node it is starting and at which node it is ending.
+
+Connected Graph: For a graph to be labelled as a connected graph, there must be at least a single path between every pair of the graph's vertices. In other words, we can say that if we start from one vertex, we should be able to move to any of the vertices that are present in that particular graph, which means there exists at least one path between all the vertices of the graph.
+
+Disconnected Graph: A graph is said to be a disconnected graph where there does not exist any path between at least one pair of vertices. In other words, we can say that if we start from any one of the vertices of the graph and try to move to the remaining present vertices of the graph and there exists not even a single path to move to that vertex, then it is the case of the disconnected graph. If any one of such a pair of vertices doesn't have a path between them, it is called a disconnected graph.
+
+Regular Graph: For a graph to be called a regular, it should satisfy one primary condition: all graph vertices should have the same degree. By the degree of vertices, we mean the number of nodes associated with a particular vertex. If all the graph nodes have the same degree value, then the graph is called a regular graph. If all the vertices of a graph have the degree value of 6, then the graph is called a 6-regular graph. If all the vertices in a graph are of degree 'k', then it is called a "k-regular graph".
+
+Complete Graph: A graph is said to be a complete graph if, for all the vertices of the graph, there exists an edge between every pair of the vertices. In other words, we can say that all the vertices are connected to the rest of all the vertices of the graph. A complete graph of 'n' vertices contains exactly nC2 edges, and a complete graph of 'n' vertices is represented as Kn.
+
+Cycle Graph: If a graph with many vertices greater than three and edges form a cycle, then the graph is called a cycle graph. In a graph of cycle type, the degree of all the vertices of the cycle graph will be 2.
+
+Cyclic Graph: For a graph to be called a cyclic graph, it should consist of at least one cycle. If a graph has a minimum of one cycle present, it is called a cyclic graph.
+
+Acyclic Graph: A graph is called an acyclic graph if zero cycles are present, and an acyclic graph is the complete opposite of a cyclic graph.
+
+Finite Graph: If the number of vertices and the number of edges that are present in a graph are finite in number, then that graph is called a finite graph.
+
+Infinite Graph: If the number of vertices in the graph and the number of edges in the graph are infinite in number, that means the vertices and the edges of the graph cannot be counted, then that graph is called an infinite graph.
+
+Bipartite Graph: For a graph to be a Bipartite graph, it needs to satisfy some of the basic preconditions. These conditions are:
+
+All the vertices of the graph should be divided into two distinct sets of vertices X and Y.
+All the vertices present in the set X should only be connected to the vertices present in the set Y with some edges. That means the vertices present in a set should not be connected to the vertex that is present in the same set.
+Both the sets that are created should be distinct that means both should not have the same vertices in them.
+Types of Graph in Data Structure
+The graph shown in the above image is divided into two vertices named set X and set Y. 
+
+Planar Graph: A graph is called a planar graph if that graph can be drawn in a single plane with any two of the edges intersecting each other.
+
+Simple Graph: A graph is said to be a simple graph if the graph doesn't consist of no self-loops and no parallel edges in the graph.
+
+Multi Graph: A graph is said to be a multigraph if the graph doesn't consist of any self-loops, but parallel edges are present in the graph. If there is more than one edge present between two vertices, then that pair of vertices is said to be having parallel edges.
+
+Pseudo Graph: If a graph consists of no parallel edges, but self-loops are present in a graph, it is called a pseudo graph. The meaning of a self-loop is that there is an edge present in the graph that starts from one of the graph's vertices, and if that edge ends on the same vertex, then it is called a pseudo graph.
+
+Euler Graph: If all the vertices present in a graph have an even degree, then the graph is known as an Euler graph. By degree of a vertex, we mean the number of edges that are associated with a vertex. So for a graph to be an Euler graph, it is required that all the vertices in the graph should be associated with an even number of edges.
+
+Hamilton Graph: Suppose a closed walk in the connected graph that visits every vertex of the graph exactly once (except starting vertex) without repeating the edges. Such a graph is called a Hamiltonian graph, and such a walk is called a Hamiltonian path. The Hamiltonian circuit is also known as Hamiltonian Cycle.
+
+In other words, A Hamiltonian path that starts and ends at the same vertex is called a Hamiltonian circuit. Every graph that contains a Hamiltonian circuit also contains a Hamiltonian path, but vice versa is not true. There may exist more than one Hamiltonian path and Hamiltonian circuit in a graph.

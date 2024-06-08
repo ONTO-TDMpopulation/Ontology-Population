@@ -1,0 +1,21 @@
+Static data structures are characterized by their fixed size and predefined memory allocation. This means that the amount of memory allocated to the structure is determined at compile time and remains constant throughout the program’s execution. Examples of static data structures include arrays.
+
+There are many features of static data structures:
+
+Memory Allocation: For static data structures, static memory is allocated at the compile time by the compiler, which is stored in the stack memory of the program.
+
+Memory Deallocation: Memory allocated to the static data structures deallocates when they go out of scope or the program ends.
+
+Continuous Memory Allocation: As we have discussed above, continuous memory is allocated to the static data structures, which means there is no need to store the structural information of the data structure or explicit data variable to store the information of the memory location.
+
+Dynamic data structures are flexible in size and can grow or shrink as needed during program execution. This adaptability makes them suitable for handling data of varying sizes or when the size is unknown beforehand. Examples of dynamic data structures include linked lists, stacks, queues, and trees.
+
+There are many features of dynamic data structures:
+
+Dynamic Memory Allocation: Dynamic data structures allocate memory at runtime, rather than being pre-allocated at compile-time. This memory is stored in the program’s heap.
+
+Flexible Memory Usage: Unlike static data structures, the memory used by dynamic data structures is not limited to a fixed size. It can expand or contract as needed during program execution.
+
+Manual Memory Management: The memory allocated to dynamic data structures does not automatically deallocate when the structure goes out of scope. The programmer is responsible for manually deallocating this memory, often using functions like free() or delete(), to avoid memory leaks.
+
+Non-Contiguous Memory: The memory locations used by dynamic data structures are not guaranteed to be contiguous. This means additional metadata must be stored to track the locations of each element within the data structure.
