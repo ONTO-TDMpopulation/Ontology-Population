@@ -1,3 +1,0 @@
-A hypergraph is a generalization of a graph, where an edge can connect any number of vertices. In a hypergraph, each edge is called a hyperedge and can connect any number of vertices, instead of just two vertices like in a traditional graph.
-
-A hypergraph can have various properties, such as: Empty - has no edges. Non-simple (or multiple) - has loops (hyperedges with a single vertex) or repeated edges, which means there can be two or more edges containing the same set of vertices. Simple - has no loops and no repeated edges.
