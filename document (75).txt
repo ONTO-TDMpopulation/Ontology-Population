@@ -1,0 +1,5 @@
+Jump Search algorithm is a slightly modified version of the linear search algorithm. The main idea behind this algorithm is to reduce the time complexity by comparing lesser elements than the linear search algorithm. The input array is hence sorted and divided into blocks to perform searching while jumping through these blocks.
+
+
+
+

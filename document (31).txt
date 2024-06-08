@@ -1,0 +1,13 @@
+In computer science, a binomial heap is a data structure that acts as a priority queue. It is an example of a mergeable heap (also called meldable heap), as it supports merging two heaps in logarithmic time. It is implemented as a heap similar to a binary heap but using a special tree structure that is different from the complete binary trees used by binary heaps. Binomial heaps were invented in 1978 by Jean Vuillemin.
+
+A binomial heap is implemented as a set of binomial trees that satisfy the binomial heap properties:
+Each binomial tree in a heap obeys the minimum-heap property: the key of a node is greater than or equal to the key of its parent. There can be at most one binomial tree for each order, including zero order.
+
+The operations that can be performed on binomial heap are listed as follows:
+Creating a binomial heap.
+Finding the minimum key. 
+Union or merging of two binomial heaps.
+Inserting a node.
+Extracting minimum key.
+Decreasing a key.
+Deleting a node.

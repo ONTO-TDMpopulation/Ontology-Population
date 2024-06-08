@@ -1,0 +1,7 @@
+a rope, or cord, is a data structure composed of smaller strings that is used to efficiently store and manipulate a very long string. For example, a text editing program may use a rope to represent the text being edited, so that operations such as insertion, deletion, concatenation, splitting, and random access can be done efficiently.
+
+A rope is a type of binary tree where each leaf (end node) holds a string and a length (also known as a "weight"), and each node further up the tree holds the sum of the lengths of all the leaves in its left subtree. A node with two children thus divides the whole string into two parts: the left subtree stores the first part of the string, the right subtree stores the second part of the string, and a node's weight is the length of the first part.
+
+For rope operations, the strings stored in nodes are assumed to be constant immutable objects in the typical nondestructive case, allowing for some copy-on-write behavior. Leaf nodes are usually implemented as basic fixed-length strings with a reference count attached for deallocation when no longer needed, although other garbage collection methods can be used as well.
+
+

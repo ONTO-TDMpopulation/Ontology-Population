@@ -1,0 +1,2 @@
+A Fenwick tree; or binary indexed tree (BIT) is a data structure that can efficiently update elements and calculate prefix sums in a table of numbers.This structure was proposed by Boris Ryabko in 1989 with a further modification published in 1992. It has subsequently become known under the name Fenwick tree after Peter Fenwick, who described this structure in his 1994 article. When compared with a flat array of numbers, the Fenwick tree achieves a much better balance between two operations: element update and prefix sum calculation. 
+

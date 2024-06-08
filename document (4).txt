@@ -1,0 +1,33 @@
+Tree data structure is a hierarchical structure that is used to represent and organize data in a way that is easy to navigate and search. It is a collection of nodes that are connected by edges and has a hierarchical relationship between the nodes. The topmost node of the tree is called the root, and the nodes below it are called the child nodes. Each node can have multiple child nodes, and these child nodes can also have their own child nodes, forming a recursive structure.
+
+The data in a tree are not stored in a sequential manner i.e., they are not stored linearly. Instead, they are arranged on multiple levels or we can say it is a hierarchical structure. For this reason, the tree is considered to be a non-linear data structure.
+
+Tree data structure can be classified into three types based upon the number of children each node of the tree can have. The types are:
+
+Binary tree: In a binary tree, each node can have a maximum of two children linked to it. Some common types of binary trees include full binary trees, complete binary trees, balanced binary trees, and degenerate or pathological binary trees.
+
+Ternary Tree: A Ternary Tree is a tree data structure in which each node has at most three child nodes, usually distinguished as “left”, “mid” and “right”.
+
+N-ary Tree or Generic Tree: Generic trees are a collection of nodes where each node is a data structure that consists of records and a list of references to its children(duplicate references are not allowed). Unlike the linked list, each node stores the address of multiple nodes.
+
+The basic operations that can be performed in a tree data structure include:
+
+Insertion: There are multiple ways to insert an element depending on the location, like inserting the element in the rightmost or the leftmost vacant position or inserting the element in the first empty position available. 
+
+Searching: It is a simple process to search in a binary tree to check if the current node value matches the required value. The process can be repeated to the right and left subtrees with a recursive algorithm until a match is found. 
+
+Deletion: Deleting is a tricky process in a tree data structure. When we delete a node, complications may occur to the right and left children. A deleted node is a leaf node that occurs. Thus, the deletion process of a node includes:
+Checking if the root is NULL.
+Searching for an item in the left and right subtree and recursing it.
+Deleting the root node of a tree.
+
+Updating: Updating a tree involves modifying the values or properties of existing nodes. This can include changing the value of a node, updating the links between nodes, or modifying any other relevant attributes.
+
+Traversing: Traversing a tree means visiting and accessing each node in a specific order. There are various ways to traverse a tree, each serving a different purpose and producing a different sequence of node visits.
+
+tree Pruning: Removing a whole section of a tree.
+
+tree Grafting: Adding a whole section to a tree.
+
+Enumerating all the items.
+Enumerating a section of a tree.

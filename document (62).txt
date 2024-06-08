@@ -1,0 +1,5 @@
+a graph-structured stack (GSS) is a directed acyclic graph where each directed path represents a stack. The graph-structured stack is an essential part of Tomita's algorithm, where it replaces the usual stack of a pushdown automaton. This allows the algorithm to encode the nondeterministic choices in parsing an ambiguous grammar, sometimes with greater efficiency. 
+
+
+
+

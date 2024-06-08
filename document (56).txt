@@ -1,0 +1,12 @@
+Functions in Programming is a block of code that encapsulates a specific task or related group of tasks. Functions are defined by a name, may have parameters and may return a value. The main idea behind functions is to take a large program, break it into smaller, more manageable pieces (or functions), each of which accomplishes a specific task.
+
+A function declaration tells the compiler about a function’s name, return type, and parameters. A function declaration provides the basic attributes of a function and serves as a prototype for the function, which can be called elsewhere in the program. A function declaration tells the compiler that there is a function with the given name defined somewhere else in the program.
+
+The function definition contains a function declaration and the body of a function. The body is a block of statements that perform the work of the function.
+
+Once a function is declared, it can be used or “called” by its name. When a function is called, the control of the program jumps to that function, which then executes its code. Once the function finishes executing, the control returns to the part of the program that called the function, and the program continues running from there.
+
+Functions in Programming can take parameters, which are values you supply to the function so that the function can do something utilizing those values. These parameters are placed inside the parentheses in the function declaration.
+
+Functions in Programming can also return a value back to the caller. The return type is defined in the function declaration. Inside the function, the return statement is used to specify the return value.
+

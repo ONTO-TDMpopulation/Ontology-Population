@@ -1,0 +1,9 @@
+In computer science, finger search trees are a type of binary search tree that keeps pointers to interior nodes, called fingers. The fingers speed up searches, insertions, and deletions for elements close to the fingers, giving amortized O(log n) lookups, and amortized O(1) insertions and deletions. It should not be confused with a finger tree nor a splay tree, although both can be used to implement finger search trees.
+
+There are several types of finger search trees, including the binary search tree (BST), the red-black tree (RBT), and the AVL tree. Each type of finger search tree has its own set of rules for inserting and deleting elements, balancing the tree, and maintaining the finger reference.
+
+The BST is the simplest type of finger search tree, where each node has at most two children – a left child and a right child. The finger reference in a BST is a pointer to a node in the tree.
+
+The RBT is a more complex type of finger search tree that uses color-coded nodes to balance the tree. The finger reference in an RBT is a pointer to a node in the tree, and the color of the node is used to determine how the tree is balanced.
+
+The AVL tree is a self-balancing type of finger search tree that uses a height balance factor to maintain balance. The finger reference in an AVL tree is a pointer to a node in the tree, and the height balance factor is used to determine how the tree is balanced.

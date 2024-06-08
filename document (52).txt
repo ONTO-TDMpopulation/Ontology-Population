@@ -1,0 +1,15 @@
+the Fibonacci search is a method of searching a sorted array using a divide and conquer algorithm that narrows down possible locations with the aid of Fibonacci numbers. Compared to binary search where the sorted array is divided into two equal-sized parts, one of which is examined further, Fibonacci search divides the array into two parts that have sizes that are consecutive Fibonacci numbers. On average, this leads to about 4% more comparisons to be executed, but it has the advantage that one only needs addition and subtraction to calculate the indices of the accessed array elements, while classical binary search needs bit-shift (see Bitwise operation), division or multiplication, operations that were less common at the time Fibonacci search was first published. Fibonacci search has an average- and worst-case complexity of O(log n).
+
+Similarities with Binary Search:  
+Works for sorted arrays.
+A Divide and Conquer Algorithm.
+Has Log n time complexity.
+Differences with Binary Search: 
+
+Fibonacci Search divides given array into unequal parts
+Binary Search uses a division operator to divide range. Fibonacci Search doesn’t use division. The division operator may be costly on some CPUs.
+Fibonacci Search examines relatively closer elements in subsequent steps. So when the input array is big that cannot fit in CPU cache or even in RAM, Fibonacci Search can be useful.
+
+
+
+

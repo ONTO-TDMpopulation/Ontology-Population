@@ -1,0 +1,14 @@
+In structured programming, a procedure is a block of code designed to perform a specific task. It is a self-contained module that can be reused throughout a program, enhancing the readability and maintainability of the code. Procedures are instrumental in breaking down complex problems into simpler, more manageable parts.
+
+A procedure in is generally structured as follows:
+
+Procedure Declaration: This includes the procedure name and any parameters it requires.
+Body of the Procedure: A sequence of steps or instructions that define the task performed by the procedure.
+Termination: An end statement that concludes the procedure.
+
+The name of a procedure should clearly reflect its functionality. Good naming conventions make the code self-explanatory, enhancing its readability. For example, a procedure that sorts a list of numbers might be aptly named sortList.
+
+Parameters are variables that are passed into a procedure. They provide the procedure with the data it needs to perform its task. Parameters can be:
+
+By Value: The procedure receives a copy of the variable, and any changes made within the procedure do not affect the original variable.
+By Reference: The procedure receives a reference to the variable, and changes made within the procedure are reflected in the original variable.

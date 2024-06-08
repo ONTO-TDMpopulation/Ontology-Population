@@ -1,0 +1,7 @@
+Burstsort is a cache-efficient algorithms for sorting strings.  They are variants of the traditional radix sort but faster for large data sets of common strings, first published in 2003, with some optimizing versions published in later years.Burstsort algorithms use a trie to store prefixes of strings, with growable arrays of pointers as end nodes containing sorted, unique, suffixes (referred to as buckets). 
+
+Some variants copy the string tails into the buckets. As the buckets grow beyond a predetermined threshold, the buckets are "burst" into tries, giving the sort its name. A more recent variant uses a bucket index with smaller sub-buckets to reduce memory usage. Most implementations delegate to multikey quicksort, an extension of three-way radix quicksort, to sort the contents of the buckets. By dividing the input into buckets with common prefixes, the sorting can be done in a cache-efficient manner.
+
+Burstsort was introduced as a sort that is similar to MSD radix sort, but is faster due to being aware of caching and related radixes being stored closer to each other due to specifics of trie structure. It exploits specifics of strings that are usually encountered in real world. And although asymptotically it is the same as radix sort, with time complexity of O(wn) (w – word length and n – number of strings to be sorted), but due to better memory distribution it tends to be twice as fast on big data sets of strings.  It has been billed as the "fastest known algorithm to sort large sets of strings".
+
+

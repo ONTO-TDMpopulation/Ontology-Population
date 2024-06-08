@@ -1,0 +1,3 @@
+parallel arrays (also known as structure of arrays or SoA) is a form of implicit data structure that uses multiple arrays to represent a singular array of records. It keeps a separate, homogeneous data array for each field of the record, each having the same number of elements. Then, objects located at the same index in each array are implicitly the fields of a single record. Pointers from one object to another are replaced by array indices. This contrasts with the normal approach of storing all fields of each record together in memory (also known as array of structures or AoS). 
+
+

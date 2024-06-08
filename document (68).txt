@@ -1,0 +1,11 @@
+heapsort is a comparison-based sorting algorithm. Heapsort can be thought of as an improved selection sort: like selection sort, heapsort divides its input into a sorted and an unsorted region, and it iteratively shrinks the unsorted region by extracting the largest element from it and inserting it into the sorted region. Unlike selection sort, heapsort does not waste time with a linear-time scan of the unsorted region; rather, heap sort maintains the unsorted region in a heap data structure to more quickly find the largest element in each step.Although somewhat slower in practice on most machines than a well-implemented quicksort, it has the advantage of a more favorable worst-case O(n log n) runtime (and as such is used by Introsort as a fallback should it detect that quicksort is becoming degenerate). Heapsort is an in-place algorithm, but it is not a stable sort.
+
+Heapsort was invented by J. W. J. Williams in 1964. This was also the birth of the heap, presented already by Williams as a useful data structure in its own right. In the same year, Robert W. Floyd published an improved version that could sort an array in-place, continuing his earlier research into the treesort algorithm.
+
+Bottom-up heapsort is a variant which reduces the number of comparisons required by a significant factor. While ordinary heapsort requires 2n log2 n + O(n) comparisons worst-case and on average, the bottom-up variant requires n log2n + O(1) comparisons on average, and 1.5n log2n + O(n) in the worst case.
+
+Bottom-up heapsort was announced as beating quicksort (with median-of-three pivot selection) on arrays of size ≥16000.
+
+Ternary heapsort uses a ternary heap instead of a binary heap; that is, each element in the heap has three children. It is more complicated to program, but does a constant number of times fewer swap and comparison operations. This is because each sift-down step in a ternary heap requires three comparisons and one swap, whereas in a binary heap two comparisons and one swap are required. Two levels in a ternary heap cover 32 = 9 elements, doing more work with the same number of comparisons as three levels in the binary heap, which only cover 23 = 8. This is primarily of academic interest, or as a student exercise, as the additional complexity is not worth the minor savings, and bottom-up heapsort beats both.
+
+

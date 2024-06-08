@@ -1,0 +1,15 @@
+Matrix Data Structure is a two-dimensional array arranged in rows and columns. It is commonly used to represent mathematical matrices and is fundamental in various fields like mathematics, computer graphics, and data processing. Matrices allow for efficient storage and manipulation of data in a structured format.
+
+Size: A matrix has a specific size, defined by its number of rows and columns.
+
+Element: A matrix’s row and column indices serve to identify each entry, which is referred to as an element.
+
+Operations: Scalar multiplication and the operations of addition, subtraction, and multiplication on matrices are also supported.
+
+Determinant: A square matrix’s determinant is a scalar number that may be used to solve systems of linear equations and carry out other linear algebraic operations.
+
+Inverse: If a square matrix has an inverse, it may be used to solve linear equation systems and carry out other linear algebraic operations.
+
+Transpose: By flipping a matrix along its main diagonal and switching the rows and columns, you may create the transpose of the matrix.
+
+Rank: In many applications, including the solution of linear equations and linear regression analysis, the rank of a matrix—a measure of its linearly independent rows or columns—is utilized.

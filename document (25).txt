@@ -1,0 +1,20 @@
+recursion method is a technique of solving a computational problem where the solution depends on solutions to smaller instances of the same problem. Recursion solves such recursive problems by using functions that call themselves from within their own code. The approach can be applied to many types of problems, and recursion is one of the central ideas of computer science.
+
+The power of recursion evidently lies in the possibility of defining an infinite set of objects by a finite statement.  In the same manner, an infinite number of computations can be described by a finite recursive program, even if this program contains no explicit repetitions.
+
+Most computer programming languages support recursion by allowing a function to call itself from within its own code. Some functional programming languages (for instance, Clojure) do not define any looping constructs but rely solely on recursion to repeatedly call code. It is proved in computability theory that these recursive-only languages are Turing complete; this means that they are as powerful (they can be used to solve the same problems) as imperative languages based on control structures such as while and for.
+
+Repeatedly calling a function from within itself may cause the call stack to have a size equal to the sum of the input sizes of all involved calls. It follows that, for problems that can be solved easily by iteration, recursion is generally less efficient, and, for large problems, it is fundamental to use optimization techniques such as tail call optimization.
+
+A common algorithm design tactic is to divide a problem into sub-problems of the same type as the original, solve those sub-problems, and combine the results. This is often referred to as the divide-and-conquer method; when combined with a lookup table that stores the results of previously solved sub-problems (to avoid solving them repeatedly and incurring extra computation time), it can be referred to as dynamic programming or memoization.
+
+There are two types of cases in recursion i.e. recursive case and a base case.
+
+The base case is used to terminate the recursive function when the case turns out to be true.
+
+Each recursive call makes a new copy of that method in the stack memory.
+
+Infinite recursion may lead to running out of stack memory.
+
+Examples of Recursive algorithms: Merge Sort, Quick Sort, Tower of Hanoi, Fibonacci Series, Factorial Problem, etc.
+

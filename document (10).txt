@@ -1,0 +1,5 @@
+variable length arrays (VLAs) are also known as runtime-sized or variable-sized arrays. The size of such arrays is defined at run-time.
+
+Variably modified types include variable-length arrays and pointers to variable-length arrays. Variably changed types must be declared at either block scope or function prototype scope.
+
+Variable length arrays are a feature where we can allocate an auto array (on stack) of variable size. It can be used in a typedef statement. 

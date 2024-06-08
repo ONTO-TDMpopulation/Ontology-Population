@@ -1,0 +1,13 @@
+Conditional statements in Programming, also known as decision-making statements, allow a program to perform different actions based on whether a certain condition is true or false. They form the backbone of most programming languages, enabling the creation of complex, dynamic programs.
+
+Conditional statements in programming allow the execution of different pieces of code based on whether certain conditions are true or false. Here are five common types of conditional statements:
+
+If Conditional Statement: The if statement is the most basic form of conditional statement. It checks if a condition is true. If it is, the program executes a block of code.
+
+If-Else Conditional Statement: The if-else statement extends the if statement by adding an else clause. If the condition is false, the program executes the code in the else block.
+
+if-Else if Conditional Statement: The if-else if statement allows for multiple conditions to be checked in sequence. If the if condition is false, the program checks the next else if condition, and so on.
+
+Switch Conditional Statement: The switch statement is used when you need to check a variable against a series of values. It’s often used as a more readable alternative to a long if-else if chain. In switch expressions, each block is terminated by a break keyword. The statements in switch are expressed with cases.
+
+Ternary Expression Conditional Statement: The ternary operator is a shorthand way of writing an if-else statement. It takes three operands: a condition, a result for when the condition is true, and a result for when the condition is false.

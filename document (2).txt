@@ -1,0 +1,13 @@
+In computer science, a ternary tree is a tree data structure in which each node has at most three child nodes, usually distinguished as "left", “mid” and "right". Nodes with children are parent nodes, and child nodes may contain references to their parents. Outside the tree, there is often a reference to the "root" node (the ancestor of all nodes), if it exists. Any node in the data structure can be reached by starting at root node and repeatedly following references to either the left, mid or right child.
+
+Ternary trees are used to implement Ternary search trees and Ternary heaps. Common operations are:
+
+Insertion: Nodes can be inserted into ternary trees in between three other nodes or added after an external node. In Ternary trees, a node that is inserted is specified as to which child it is.
+
+External nodes: Say that the external node being added onto is node A. To add a new node after node A, A assigns the new node as one of its children and the new node assigns node A as its parent.
+
+Internal nodes: Insertion on internal nodes is more complex than on external nodes. Say that the internal node is node A and that node B is the child of A. (If the insertion is to insert a right child, then B is the right child of A, and similarly with a left child insertion or mid child.) A assigns its child to the new node and the new node assigns its parent to A. Then the new node assigns its child to B and B assigns its parent as the new node.
+
+Deletion: Deletion is the process whereby a node is removed from the tree. Only certain nodes in a ternary tree can be removed unambiguously.
+
+Node with zero or one child: Say that the node to delete is node A. If a node has no children (external node), deletion is accomplished by setting the child of A's parent to null and A's parent to null. If it has one child, set the parent of A's child to A's parent and set the child of A's parent to A's child.

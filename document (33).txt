@@ -1,0 +1,27 @@
+a binary search tree (BST) is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree. The time complexity of operations on the binary search tree is directly proportional to the height of the tree.
+
+Binary search trees allow binary search for fast lookup, addition, and removal of data items. Since the nodes in a BST are laid out so that each comparison skips about half of the remaining tree, the lookup performance is proportional to that of binary logarithm. BSTs were devised in the 1960s for the problem of efficient storage of labeled data and are attributed to Conway Berners-Lee and David Wheeler.
+
+The performance of a binary search tree is dependent on the order of insertion of the nodes into the tree since arbitrary insertions may lead to degeneracy; several variations of the binary search tree can be built with guaranteed worst-case performance. The basic operations include: search, traversal, insert and delete. BSTs with guaranteed worst-case complexities perform better than an unsorted array, which would require linear search time.
+
+Searching in a binary search tree for a specific key can be programmed recursively or iteratively.
+Searching begins by examining the root node. If the tree is nil, the key being searched for does not exist in the tree. Otherwise, if the key equals that of the root, the search is successful and the node is returned. If the key is less than that of the root, the search proceeds by examining the left subtree. Similarly, if the key is greater than that of the root, the search proceeds by examining the right subtree. This process is repeated until the key is found or the remaining subtree is nil.
+        
+Operations such as finding a node in a BST whose key is the maximum element or, minimum element are critical in certain operations, such as determining the successor and predecessor of nodes. 
+
+Operations such as insertion and deletion cause the BST representation to change dynamically. The data structure must be modified in such a way that the properties of BST continue to hold. New nodes are inserted as leaf nodes in the BST.
+
+A BST can be traversed through three basic algorithms: inorder, preorder, and postorder tree walks.
+
+Inorder tree walk:  Nodes from the left subtree get visited first, followed by the root node and right subtree.
+
+Preorder tree walk: The root node gets visited first, followed by left and right subtrees.
+
+Postorder tree walk: Nodes from the left subtree get visited first, followed by the right subtree, and finally the root.
+
+
+
+
+
+
+

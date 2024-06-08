@@ -1,0 +1,32 @@
+a graph is an abstract data type that is meant to implement the undirected graph and directed graph concepts from the field of graph theory within mathematics.
+A graph data structure consists of a finite (and possibly mutable) set of vertices (also called nodes or points), together with a set of unordered pairs of these vertices for an undirected graph or a set of ordered pairs for a directed graph. These pairs are known as edges (also called links or lines), and for a directed graph are also known as edges but also sometimes arrows or arcs. The vertices may be part of the graph structure, or may be external entities represented by integer indices or references.
+A graph data structure may also associate to each edge some edge value, such as a symbolic label or a numeric attribute (cost, capacity, length, etc.).
+
+A graph is a data structure that consists of a set of nodes (also known as vertices) and a set of edges that connect these nodes. Graphs are used to represent relationships and connections between objects, and they can be used to model a wide variety of real-world problems.
+
+Graphs can be directed or undirected, depending on whether the edges have a direction or not. In a directed graph, the edges have a specific direction, whereas in an undirected graph, the edges have no direction.
+
+There are several common operations that can be performed on a graph, including:
+
+node addition: This operation involves adding a new node to the graph. The new node can be connected to other nodes in the graph by adding edges between the new node and existing nodes.
+
+edge addition: This operation involves adding a new edge between two nodes in the graph. The new edge can be directed or undirected, and can have a weight (or cost) associated with it.
+
+node removal: This operation involves removing a node from the graph. This also involves removing any edges that are connected to the node.
+
+edge removal: This operation involves removing an edge between two nodes in the graph.
+
+graph traversal: This operation involves visiting each node in the graph in a systematic way. There are several algorithms that can be used to traverse a graph, including depth-first-search (DFS) and breadth-first-search (BFS).
+
+the shortest path discovery: This operation involves finding the shortest path between two nodes in the graph. This can be done using algorithms such as Dijkstra's algorithm or the Bellman-Ford algorithm.
+
+the minimum spanning tree discovery: This operation involves finding a subset of the edges in the graph that form a tree that connects all the nodes in the graph. This can be done using algorithms such as Kruskal's algorithm or Prim's algorithm.
+
+Graph operations are important in a wide variety of applications, including social networks, transportation networks, and computer networks. Understanding graph operations and algorithms can help in solving complex problems in these and other domains.
+
+
+
+
+
+
+

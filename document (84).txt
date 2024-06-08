@@ -1,0 +1,14 @@
+A min heap is a binary heap data structure that satisfies the heap property, where the value of each node is smaller than or equal to the values of its children. It is commonly used to efficiently maintain the minimum element and perform various operations. Here is a description of the min heap and its operations:
+
+Min Heap Implementation:
+A min heap can be implemented using an array or a tree-based data structure. In the array-based implementation, the heap elements are stored in an array, and the parent-child relationships are determined by the indices of the elements. In the tree-based implementation, each node contains a value and pointers to its left and right children.
+
+Insertion Operation:insert an element into a min heap, it is added at the next available position in the heap, typically as the last leaf node. Then, the element is compared with its parent, and if it is smaller, they are swapped. This process is repeated until the element reaches its correct position in the heap.
+
+Deletion Operation:refers to the removal of a specific element. To delete an element, it is first located in the heap. Once found, it can be swapped with the last leaf node, and then the heap property is restored by comparing the swapped element with its children and swapping downwards if necessary. Finally, the element is removed from the heap.
+
+Extraction-Min Operation:removes the minimum element from the min heap, which is always at the root. After removing the root element, the last leaf node is moved to the root position. Then, the heap property is restored by comparing the new root with its children and swapping downwards if necessary.
+
+These operations ensure that the minimum element can be efficiently accessed in O(1) time, while maintaining the heap property and allowing efficient insertions and deletions in O(log n) time, where n is the number of elements in the heap.
+
+The implementation of a min heap with these operations provides an efficient way to manage a collection of elements, particularly when the focus is on finding the minimum element or maintaining a priority queue.

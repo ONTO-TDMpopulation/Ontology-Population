@@ -1,0 +1,24 @@
+a doubly-linked-list is a linked data structure that consists of a set of sequentially linked records called nodes. Each node contains three fields: two link fields (references to the previous and to the next node in the sequence of nodes) and one data field.  The beginning and ending nodes' previous and next links, respectively, point to some kind of terminator, typically a sentinel node or null, to facilitate traversal of the list. If there is only one sentinel node, then the list is circularly linked via the sentinel node. It can be conceptualized as two singly linked-lists formed from the same data items, but in opposite sequential orders. Following are the operations that can be performed on a doubly linked list.
+
+Insertion at beginning: Adding the node into the linked list at beginning.
+
+Insertion at end: Adding the node into the linked list to the end.
+
+Insertion after specified node: Adding the node into the linked list after the specified node.
+
+Deletion at beginning: Removing the node from beginning of the list
+
+Deletion at the end: Removing the node from end of the list.
+
+Deletion of the node having given data: Removing the node which is present just after the node containing the given data.
+
+Searching: Comparing each node data with the item to be searched and return the location of the item in the list if the item found else return null.
+
+Traversing: Visiting each node of the list at least once in order to perform some specific operation like searching, sorting, display, etc.
+
+An asymmetric-doubly-linked-list is somewhere between the singly-linked-list and the regular doubly-linked-list. It shares some features with the singly linked list (single-direction traversal) and others from the doubly-linked-list (ease of modification). It is a list where each node's previous link points not to the previous node, but to the link to itself. While this makes little difference between nodes (it just points to an offset within the previous node), it changes the head of the list: It allows the first node to modify the firstNode link easily.As long as a node is in a list, its previous link is never null.
+
+
+
+
+

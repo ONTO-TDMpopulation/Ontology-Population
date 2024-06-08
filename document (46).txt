@@ -1,0 +1,32 @@
+Directed graphs, also known as digraphs, are graphs where edges have a specific direction. This means that an edge connects one vertex (source) to another vertex (destination), and the direction indicates the flow or relationship between them. Various operations can be performed on directed graphs to analyze their properties and relationships. 
+
+Directed graphs have several characteristics that make them different from undirected graphs. Here are some key characteristics of directed graphs:
+
+Directed edges: In a directed graph, edges have a direction associated with them, indicating a one-way relationship between vertices.
+
+Indegree and Outdegree: Each vertex in a directed graph has two different degree measures: indegree and outdegree. Indegree is the number of incoming edges to a vertex, while outdegree is the number of outgoing edges from a vertex.
+
+Cycles: A directed graph can contain cycles, which are paths that start and end at the same vertex and contain at least one edge. Cycles can be important for understanding feedback loops or other patterns in the graph.
+
+Paths and reachability: Paths in a directed graph follow the direction of the edges, and can be used to analyze reachability between vertices.
+
+Here are some common operations:
+
+Vertex Addition: Adding a vertex to a directed graph involves creating a new vertex and connecting it to existing vertices through directed edges.
+
+Edge Addition: Adding an edge to a directed graph involves creating a directed edge between two existing vertices. The direction of the edge determines the flow or relationship between the vertices.
+
+Vertex Deletion: Removing a vertex from a directed graph involves removing the vertex and all associated edges connected to it.
+
+Edge Deletion: Removing an edge from a directed graph involves deleting the directed edge between two vertices.
+
+Reachability Analysis: Determining the reachability between two vertices in a directed graph involves finding if there is a directed path from one vertex to another. It helps identify if a certain vertex can be reached from another vertex.
+
+Path Finding: Finding a path in a directed graph involves determining a sequence of vertices and edges that connect a source vertex to a target vertex. This operation can involve algorithms like depth-first search (DFS) or breadth-first search (BFS).
+
+Topological Sorting: In a directed acyclic graph (DAG), topological sorting arranges the vertices in a linear order such that for every directed edge (u, v), vertex u comes before vertex v in the ordering. It is commonly used in scheduling and dependency resolution problems.
+
+Strongly Connected Components: Strongly connected components are subsets of vertices in a directed graph where every vertex is reachable from every other vertex within the subset. Identifying strongly connected components can help understand the structure and connectivity of a directed graph.
+
+
+

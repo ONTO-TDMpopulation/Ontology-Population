@@ -1,0 +1,25 @@
+Undirected graphs are graphs where edges have no specific direction, and they represent relationships or connections between entities. Here are some common operations that can be performed on undirected graphs:
+
+Vertex Addition: Adding a vertex involves introducing a new node to the graph.
+
+Edge Addition: Adding an edge connects two vertices in the graph, representing a relationship or connection between them. In undirected graphs, the edges are bidirectional.
+
+Vertex Deletion: Removing a vertex eliminates it from the graph, along with any associated edges.
+
+Edge Deletion: Removing an edge disconnects two vertices, removing the relationship between them.
+
+Graph Traversal: Traversing an undirected graph involves visiting all vertices or a subset of vertices in a specific order. Common graph traversal algorithms include depth-first search (DFS) and breadth-first search (BFS).
+
+Path Finding: Finding a path between two vertices determines if there exists a sequence of edges that connect them. Algorithms like DFS, BFS, Dijkstra's algorithm, or A* search can be used for path finding.
+
+Connected Components: Identifying connected components partitions the graph into subsets where all vertices in each subset are connected to each other. This helps analyze the connectivity of the graph.
+
+Cycle Detection: Detecting cycles in an undirected graph determines if there are any closed loops or cycles present. Algorithms like DFS or Union-Find can be used for cycle detection.
+
+Minimum Spanning Tree: Finding the minimum spanning tree of an undirected graph identifies a subset of edges that form a tree connecting all vertices with the minimum possible total weight. Common algorithms for this include Prim's algorithm and Kruskal's algorithm.
+
+Graph Coloring: Assigning colors to vertices of an undirected graph such that no two adjacent vertices have the same color. Graph coloring has applications in scheduling, register allocation, and graph theory.
+
+Graph Matching: Determining if two graphs are isomorphic, meaning they have the same structure but may have different vertex labels.
+
+These operations provide a foundation for analyzing and manipulating undirected graphs. Depending on the specific context and requirements, there are many more operations and algorithms available for working with undirected graphs.

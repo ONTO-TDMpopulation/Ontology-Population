@@ -1,0 +1,9 @@
+Iteration is the repetition of a process in order to generate a (possibly unbounded) sequence of outcomes. Each repetition of the process is a single iteration, and the outcome of each iteration is then the starting point of the next iteration.
+
+Iteration allows algorithms to be simplified by stating that certain steps will repeat until told otherwise. This makes designing algorithms quicker and simpler because they don’t need to include lots of unnecessary steps.
+
+An Iteration in computer science is a function that repeats a block of code in a specified order, often until a specific result occurs. Algorithms use iterations to run a program repeatedly until it meets certain conditions or until the algorithm repeats a set number of times. Iterations can follow each other, creating loops of multiple iterations that repeat indefinitely within a computer program. 
+
+The for-loop is a common type of loop used for iteration in programming. It consists of three parts: the initialization, the condition, and the increment/decrement. You initialize a variable, define a condition that determines when the loop should stop, and specify how the variable should be modified after each iteration.
+
+The while-loop is another type of loop used for iteration. It repeatedly executes a code block if a specified condition remains true. The condition is evaluated before each iteration, and if it becomes false, the loop terminates.

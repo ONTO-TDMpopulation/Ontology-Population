@@ -1,0 +1,1 @@
+Gap Buffer is a data structure for the dynamic insertion and deletion of elements in a buffer or an array. It represents a buffer or an array as a gap surrounded by two pointers, one pointing to the beginning of the buffer and the other pointing to the end. When elements are inserted or deleted, the gap is moved to accommodate the change, instead of resizing the entire buffer.

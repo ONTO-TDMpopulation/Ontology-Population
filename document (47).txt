@@ -1,0 +1,11 @@
+a double-ended queue (abbreviated to deque, pronounced deck, like "cheque") is an abstract data type that generalizes a queue, for which elements can be added to or removed from either the front (head) or back (tail). It is also often called a head-tail linked list, though properly this refers to a specific data structure implementation of a deque.
+
+A deque is a data structure that allows insertion and removal of elements from both ends. This is different from a queue, which only allows insertion at one end and removal from the other end, following a first-in, first-out (FIFO) order. Deques can have several sub-types, including input-restricted deques, where deletion can be made from both ends but insertion can only be made at one end, and output-restricted deques, where insertion can be made at both ends but deletion can only be made from one end.
+
+The basic operations on a deque are enqueue and dequeue on either end. Also generally implemented are peek operations, which return the value at that end without dequeuing it.
+Names vary between languages; major implementations include:
+
+There are at least two common ways to efficiently implement a deque: with a modified dynamic array or with a doubly linked list.
+The dynamic array approach uses a variant of a dynamic array that can grow from both ends, sometimes called array deques. These array deques have all the properties of a dynamic array, such as constant-time random access, good locality of reference, and inefficient insertion/removal in the middle, with the addition of amortized constant-time insertion/removal at both ends, instead of just one end. Three common implementations include:
+
+

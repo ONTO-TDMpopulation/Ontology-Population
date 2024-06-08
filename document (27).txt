@@ -1,0 +1,32 @@
+AVL trees are a self-balancing binary search tree that maintains the height balance property. This means that for any node in the tree, the heights of its left and right subtrees differ by at most one.
+
+One of the primary advantages of AVL trees is their efficient performance for a variety of operations. Searching for a specific node in an AVL tree can be done in O(log n) time, where n is the number of nodes in the tree. Insertion and deletion of nodes are also efficient, typically taking O(log n) time as well.
+
+an AVL tree is a self-balancing binary search tree. It was the first such data structure to be invented. In an AVL tree, the heights of the two child subtrees of any node differ by at most one; if at any time they differ by more than one, rebalancing is done to restore this property. 
+  
+Read-only operations of an AVL tree involve carrying out the same actions as would be carried out on an unbalanced binary search tree, but modifications have to observe and restore the height balance of the sub-trees.
+
+Searching for a specific key in an AVL tree can be done the same way as that of any balanced or unbalanced binary search tree.
+
+As a read-only operation the traversal of an AVL tree functions the same way as on any other binary tree. Exploring all n nodes of the tree visits each link exactly twice: one downward visit to enter the subtree rooted by that node, another visit upward to leave that node's subtree after having explored it.
+
+AVL trees support a variety of other useful operations as well. For example: 
+
+in-order traversal : provides a sorted sequence of elements. This is because the left subtree of a node contains elements that are less than the node's value, while the right subtree contains elements that are greater. 
+
+minimum, maximum element searching: can also be done efficiently by traversing the left or right subtree of the root node, respectively.
+
+Another important operation for AVL trees is rebalancing. As nodes are inserted or deleted, the balance of the tree may be disrupted, requiring rebalancing to maintain the height balance property. Rebalancing can be done using one of several algorithms, such as rotation or double rotation, and typically takes O(1) time.
+
+AVL trees are also useful for a variety of applications, such as database indexing, language processing, and computational geometry. Their efficient performance for searching and sorting operations, as well as their ability to maintain height balance, make them a valuable tool for researchers and practitioners in a wide range of fields.
+
+Overall, AVL trees are a powerful and versatile data structure with a wide range of applications. Their efficient performance for a variety of operations, support for rebalancing, and ability to maintain height balance make them a valuable tool for many different fields of study.
+
+
+
+
+
+
+
+
+

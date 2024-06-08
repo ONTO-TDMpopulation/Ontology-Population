@@ -1,0 +1,15 @@
+A link-cut tree is a data structure for representing a forest, a set of rooted trees, and offers the following operations:
+
+Add a tree consisting of a single node to the forest.
+Given a node in one of the trees, disconnect it (and its subtree) from the tree of which it is part.
+Attach a node to another node as its child.
+Given a node, find the root of the tree to which it belongs. By doing this operation on two distinct nodes, one can check whether they belong to the same tree.
+
+The basic operations that can be performed on an Link-cut tree include:
+
+Link(u, v): This operation creates a new edge between two nodes u and v, making u the parent of v.
+Cut(u, v): This operation removes the edge between two nodes u and v, disconnecting v from its parent u.
+Find-root(u): This operation finds the root of the tree that contains the node u.
+Access(u): This operation returns the value associated with the node u, and also updates all the necessary tree information.
+
+Link Cut Trees is a powerful data structure that allows for the efficient manipulation of trees. It is based on a set of nodes and pointers linking them together. It supports basic operations like link, cut, find-root, and access, but it’s a bit more complex than that, and a library or a pre-built class is recommended to use.

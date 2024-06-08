@@ -1,0 +1,13 @@
+A Cartesian tree is a binary tree derived from a sequence of numbers. The smallest number in the sequence is at the root of the tree; its left and right subtrees are constructed recursively from the subsequences to the left and right of this number. When all numbers are distinct, the Cartesian tree is uniquely defined from the properties that it is heap-ordered and that a symmetric (in-order) traversal of the tree returns the original sequence.
+
+A Cartesian tree is a tree data structure created from a set of data that obeys the  following structural invariants:
+The tree obeys in the min (or max) heap property – each node is less (or greater) than its children.
+An inorder traversal of the nodes yields the values in the same order in which they appear in the initial sequence.
+
+Following are the operations that can be performed on a cartesian tree:
+Insertion: Inserts a new item, we could also not pass Y as a parameter, instead we can choose it a random inside.
+Searching: Searches for the element with the specified key value.
+Erase: Searches for the element X and erases it.
+Build: Builds a tree of a list of values.
+Union: Combines two trees, assuming that the elements are different.
+Intersection: Finds the common elements of two trees.

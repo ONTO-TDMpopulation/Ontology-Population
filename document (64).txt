@@ -1,0 +1,7 @@
+a hash list is typically a list of hashes of the data blocks in a file or set of files. Lists of hashes are used for many different purposes, such as fast table lookup (hash tables) and distributed databases (distributed hash tables).
+
+A hash list is an extension of the concept of hashing an item (for instance, a file). A hash list is a subtree of a Merkle tree.
+
+
+
+

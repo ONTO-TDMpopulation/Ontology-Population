@@ -1,0 +1,11 @@
+Variable in Programming is a named storage location that holds a value or data. These values can change during the execution of a program, hence the term “variable.” Variables are essential for storing and manipulating data in computer programs. A variable is the basic building block of a program that can be used in expressions as a substitute in place of the value it stores.
+
+In programming, the declaration of variables involves specifying the type and name of a variable before it is used in the program. The syntax can vary slightly between programming languages, but the fundamental concept remains consistent.
+
+Initialization of variables In Programming involves assigning an initial value to a declared variable. The syntax for variable initialization varies across programming languages.
+
+Global variables in programming are declared outside any function or block in a program and accessible throughout the entire codebase. In simpler words, Global variables can be accessed in any part of the program, including functions, blocks, or modules.
+
+Local variables in programming are declared within a specific function, block, or scope and are only accessible within that limited context. In simpler words, Local variables are confined to the block or function where they are declared and cannot be directly accessed outside that scope.
+
+The scope of a variable in programming refers to the region of the program where the variable can be accessed or modified. It defines the visibility and lifetime of a variable within a program. There are typically two types of variable scope: Local Scope and Global Scope.

@@ -1,0 +1,16 @@
+Insertion sort is a simple sorting algorithm that works by building a sorted array one element at a time. It is considered an “in-place” sorting algorithm, meaning it doesn’t require any additional memory space beyond the original array.
+
+Advantages of Insertion Sort:
+Simple and easy to implement.
+Stable sorting algorithm.
+Efficient for small lists and nearly sorted lists.
+Space-efficient.
+
+Disadvantages of Insertion Sort:
+Inefficient for large lists.
+Not as efficient as other sorting algorithms (e.g., merge sort, quick sort) for most cases.
+
+
+Insertion sort is commonly used in situations where:
+The list is small or nearly sorted.
+Simplicity and stability are important.

@@ -1,0 +1,30 @@
+A linear search is also known as a sequential search that simply scans each element at a time. Suppose we want to search an element in an array or list; we simply calculate its length and do not jump at any item.
+
+Complexity of Linear search, As linear search scans each element one by one until the element is not found. If the number of elements increases, the number of elements to be scanned is also increased. We can say that the time taken to search the elements is proportional to the number of elements. Therefore, the worst-case complexity is O(n)
+
+A binary search is a search in which the middle element is calculated to check whether it is smaller or larger than the element which is to be searched. The main advantage of using binary search is that it does not scan each element in the list. Instead of scanning each element, it performs the searching to the half of the list. So, the binary search takes less time to search an element as compared to a linear search.
+
+The one pre-requisite of binary search is that an array should be in sorted order, whereas the linear search works on both sorted and unsorted array. The binary search algorithm is based on the divide and conquer technique, which means that it will divide the array recursively.
+
+The following are the differences between linear search and binary search:
+
+Description: Linear search is a search that finds an element in the list by searching the element sequentially until the element is found in the list. On the other hand, a binary search is a search that finds the middle element in the list recursively until the middle element is matched with a searched element.
+
+Working of both the searches: The linear search starts searching from the first element and scans one element at a time without jumping to the next element. On the other hand, binary search divides the array into half by calculating an array's middle element.
+
+Implementation: The linear search can be implemented on any linear data structure such as vector, singly linked list, double linked list. In contrast, the binary search can be implemented on those data structures with two-way traversal, i.e., forward and backward traversal.
+
+Complexity: The linear search is easy to use, or we can say that it is less complex as the elements for a linear search can be arranged in any order, whereas in a binary search, the elements must be arranged in a particular order.
+
+Sorted elements: The elements for a linear search can be arranged in random order. It is not mandatory in linear search that the elements are arranged in a sorted order. On the other hand, in a binary search, the elements must be arranged in sorted order. It can be arranged either in an increasing or in decreasing order, and accordingly, the algorithm will be changed. As binary search uses a sorted array, it is necessary to insert the element at the proper place. In contrast, the linear search does not need a sorted array, so that the new element can be easily inserted at the end of the array.
+
+Approach: The linear search uses an iterative approach to find the element, so it is also known as a sequential approach. In contrast, the binary search calculates the middle element of the array, so it uses the divide and conquer approach.
+
+Data set: Linear search is not suitable for the large data set. If we want to search the element, which is the last element of the array, a linear search will start searching from the first element and goes on till the last element, so the time taken to search the element would be large. On the other hand, binary search is suitable for a large data set as it takes less time.
+
+Speed: If the data set is large in linear search, then the computational cost would be high, and speed becomes slow. If the data set is large in binary search, then the computational cost would be less compared to a linear search, and speed becomes fast.
+
+Dimensions: Linear search can be used on both single and multidimensional array, whereas the binary search can be implemented only on the one-dimensional array.
+
+Efficiency: Linear search is less efficient when we consider the large data sets. Binary search is more efficient than the linear search in the case of large data sets.
+

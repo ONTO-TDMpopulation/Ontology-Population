@@ -1,0 +1,5 @@
+A record is a fundamental data structure in computer science, also known as a structure, struct, or compound data. Often, rows are used to refer to records in databases and spreadsheets. A record is a group of fields, normally arranged in a defined number and order and sometimes including several data kinds. Particularly in object-oriented programming, fields of a record can also be referred to as members; they can also be referred to as elements, however, this raises the possibility of misunderstanding the components of a collection.
+
+Records differ from arrays in that their number of fields is predetermined at record definition, and records are a heterogeneous data type in that not every field must contain the same kind of information. Records can be found on any type of storage medium, including hard drives, magnetic tapes, and main memory. 
+
+Most data structures, particularly linked data structures, depend on records as a fundamental building block. In order to maximize efficiency, a lot of computer files are arranged as arrays of logical records that are frequently combined into larger physical records or blocks.

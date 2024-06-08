@@ -1,0 +1,5 @@
+parent pointer tree is an N-ary tree data structure in which each node has a pointer to its parent node, but no pointers to child nodes. When used to implement a set of stacks, the structure is called a spaghetti stack, cactus stack or sahuaro stack (after the sahuaro, a kind of cactus). Parent pointer trees are also used as disjoint-set data structures.
+
+
+
+

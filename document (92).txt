@@ -1,0 +1,14 @@
+A minimum spanning tree (MST) is defined as a spanning tree that has the minimum weight among all the possible spanning trees
+
+A spanning tree is defined as a tree-like subgraph of a connected, undirected graph that includes all the vertices of the graph. Or, to say in Layman’s words, it is a subset of the edges of the graph that forms a tree (acyclic) where every node of the graph is a part of the tree.
+
+The minimum spanning tree has all the properties of a spanning tree with an added constraint of having the minimum possible weights among all possible spanning trees. Like a spanning tree, there can also be many possible MSTs for a graph.
+
+There are several algorithms to find the minimum spanning tree from a given graph:
+
+Kruskal’s Minimum Spanning Tree Algorithm: Kruskal's algorithm is a minimum spanning tree algorithm that takes a graph as input and finds the subset of the edges of that graph. This input forms a tree that includes every vertex, where the total weight of all the edges in the tree is minimized.
+
+Prim’s Minimum Spanning Tree Algorithm: Prim's algorithm is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. This means it finds a subset of the edges that forms a tree that includes every vertex, where the total weight of all the edges in the tree is minimized. The algorithm operates by building this tree one vertex at a time, from an arbitrary starting vertex, at each step adding the cheapest possible connection from the tree to another vertex.
+
+Boruvka’s Minimum Spanning Tree Algorithm: Boruvka's algorithm is a greedy algorithm for finding a minimum spanning tree in a graph, or a minimum spanning forest in the case of a graph that is not connected.
+

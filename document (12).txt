@@ -1,0 +1,5 @@
+In computer science, a weak heap is a data structure for priority queues, combining features of the binary heap and binomial heap. It can be stored in an array as an implicit binary tree like a binary heap, and has the efficiency guarantees of binomial heaps.
+
+A sorting algorithm using weak heaps, weak-heapsort, uses a number of comparisons that is close to the theoretical lower bound on the number of comparisons required to sort a list, so is particularly useful when comparison is expensive, such as when comparing strings using the full Unicode collation algorithm.
+
+Like binomial heaps, the fundamental operation on weak heaps is merging two heaps of equal height h, to make a weak heap of height h+1. This requires exactly one comparison, between the roots. Whichever root is greater (assuming a max-heap) is the final root. Its first child is the losing root, which retains its children (right subtree). The winning root's children are installed as siblings of the losing root.

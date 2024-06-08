@@ -1,0 +1,19 @@
+a dynamic array; growable array; resizable array; dynamic table; mutable array; or array list is a random access, variable-size list data structure that allows elements to be added or removed. It is supplied with standard libraries in many modern mainstream programming languages. 
+
+Dynamic arrays overcome a limit of static arrays, which have a fixed capacity that needs to be specified at allocation. A dynamic array is not the same thing as a dynamically allocated array or variable-length array, either of which is an array whose size is fixed when the array is allocated, although a dynamic array may use such a fixed-size array as a back end.
+
+To resize an array in two scenarios if:
+The array uses extra memory than required.
+The array occupies all the memory and we need to add elements.
+
+The dynamic array has performance similar to an array, with the addition of new operations to add and remove elements:
+Getting or setting the value at a particular index (constant time).
+Iterating over the elements in order (linear time, good cache performance).
+Inserting or deleting an element in the middle of the array (linear time).
+Inserting or deleting an element at the end of the array (constant amortized time).
+
+Gap buffers are similar to dynamic arrays but allow efficient insertion and deletion operations clustered near the same arbitrary location. Some deque implementations use array deques, which allow amortized constant time insertion/removal at both ends, instead of just one end.
+
+Hashed array tree (HAT) is a dynamic array algorithm published by Sitarski in 1996. Hashed array tree wastes order n1/2 amount of storage space, where n is the number of elements in the array. The algorithm has O(1) amortized performance when appending a series of objects to the end of a hashed array tree.
+
+

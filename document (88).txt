@@ -1,0 +1,6 @@
+A parse tree or parsing tree or derivation tree or concrete syntax tree is an ordered, rooted tree that represents the syntactic structure of a string according to some context-free grammar. The term parse tree itself is used primarily in computational linguistics; in theoretical syntax, the term syntax tree is more common.
+
+The parse tree follows these points:
+All leaf nodes have to be terminals.
+All interior nodes have to be non-terminals.
+In-order traversal gives original input string.

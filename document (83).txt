@@ -1,0 +1,8 @@
+Merkle Trees, or Hash Trees, is a construct used for generating hashes of large amounts of data. This works whether it’s a single large file, a lot of small files, or any scenario where we have a significant amount of data.
+
+A Merkle Tree is a tree of hash values. The end result of this is a tree structure in which every intermediate node is a hash of its child nodes until the leaf nodes of the tree are actually hashes of the original data. This means every leaf node is a hash of only a small portion of the data.
+
+These data structures have two major purposes:
+
+Efficiently verifying that a large amount of data is unchanged and finding exactly where any changes may have occurred
+Efficiently proving that a piece of data is present in a larger data set

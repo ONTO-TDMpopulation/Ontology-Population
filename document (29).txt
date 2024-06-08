@@ -1,0 +1,20 @@
+A binary heap is a heap data structure that takes the form of a binary tree. Binary heaps are a common way of implementing priority queues.: 162–163  The binary heap was introduced by J. W. J. Williams in 1964, as a data structure for heapsort.A binary heap is defined as a binary tree with two additional constraints:
+
+Shape property: a binary heap is a complete binary tree; that is, all levels of the tree, except possibly the last one (deepest) are fully filled, and, if the last level of the tree is not complete, the nodes of that level are filled from left to right.
+
+Heap property: the key stored in each node is either greater than or equal to (≥) or less than or equal to (≤) the keys in the node's children, according to some total order.
+
+A Binary Heap is a Complete Binary Tree. A binary heap is typically represented as an array.
+
+Below are some standard operations on min heap:
+getMin(): It returns the root element of Min Heap. The time Complexity of this operation is O(1). In case of a maxheap it would be getMax().
+
+extractMin(): Removes the minimum element from MinHeap. The time Complexity of this Operation is O(log N) as this operation needs to maintain the heap property (by calling heapify()) after removing the root.
+
+decreaseKey(): Decreases the value of the key. The time complexity of this operation is O(log N). If the decreased key value of a node is greater than the parent of the node, then we don’t need to do anything. Otherwise, we need to traverse up to fix the violated heap property.
+
+insert(): Inserting a new key takes O(log N) time. We add a new key at the end of the tree. If the new key is greater than its parent, then we don’t need to do anything. Otherwise, we need to traverse up to fix the violated heap property.
+
+delete(): Deleting a key also takes O(log N) time. We replace the key to be deleted with the minimum infinite by calling decreaseKey(). After decreaseKey(), the minus infinite value must reach root, so we call extractMin() to remove the key.
+
+

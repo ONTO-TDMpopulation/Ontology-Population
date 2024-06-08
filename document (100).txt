@@ -1,0 +1,11 @@
+A rose tree, also known as a multiway tree, is a tree data structure with an arbitrary number of children per node.
+
+A rose tree is a type of tree data structure where each node can have an arbitrary number of child nodes. This is in contrast to binary trees, where each node can have at most two children. The term 'rose tree' is often used in functional programming languages, such as Haskell, to describe this type of data structure.
+
+In a rose tree, each node contains a value and a list of its children, which are also rose trees. The root of the tree is the only node that has no parent, and the leaves are the nodes with no children. The depth of a node is the length of the path from the root to that node, and the height of the tree is the maximum depth of any node in the tree.
+
+One of the key properties of rose trees is that they are recursively defined. This means that operations on rose trees, such as mapping a function over all the values in the tree or folding the tree to a single value, can be implemented in a very elegant and concise way using recursion.
+
+Another important property of rose trees is that they can be used to represent hierarchical data structures in a very natural way. For example, a file system can be represented as a rose tree, where each node represents a directory or a file, and the children of a directory node represent the files and subdirectories in that directory.
+
+In terms of complexity, operations on rose trees can be more expensive than on binary trees, because each node can have many children. However, this can be mitigated by using balanced rose trees, where the number of children of each node is kept relatively small.

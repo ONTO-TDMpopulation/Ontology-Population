@@ -1,0 +1,6 @@
+A leftist tree, also known as a leftist heap, is a type of binary heap data structure used for implementing priority queues. Like other heap data structures, it is a complete binary tree, meaning that all levels are fully filled except possibly the last level, which is filled from left to right.
+
+In a leftist tree, the priority of the node is determined by its key value, and the node with the smallest key value is designated as the root node. The left subtree of a node in a leftist tree is always larger than the right subtree, based on the number of nodes in each subtree. This is known as the “leftist property.”
+
+One of the key features of a leftist tree is the calculation and maintenance of the “null path length” of each node, which is defined as the distance from the node to the nearest null (empty) child. The root node of a leftist tree has the shortest null path length of any node in the tree.
+The main operations performed on a leftist tree include insert, extract-min and merge. The insert operation simply adds a new node to the tree, while the extract-min operation removes the root node and updates the tree structure to maintain the leftist property. The merge operation combines two leftist trees into a single leftist tree by linking the root nodes and maintaining the leftist property.

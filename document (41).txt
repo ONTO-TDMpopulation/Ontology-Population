@@ -1,0 +1,15 @@
+a circular buffer, circular queue, cyclic buffer or ring buffer is a data structure that uses a single, fixed-size buffer as if it were connected end-to-end. This structure lends itself easily to buffering data streams. There were early circular buffer implementations in hardware.
+
+A Circular Queue is an extended version of a normal queue where the last element of the queue is connected to the first element of the queue forming a circle. The operations are performed based on FIFO (First In First Out) principle. 
+
+Operations on Circular Queue:
+Front: Get the front item from the queue.
+Rear: Get the last item from the queue.
+enQueue(value) This function is used to insert an element into the circular queue. In a circular queue, the new element is always inserted at the rear position. 
+Check whether the queue is full – [i.e., the rear end is in just before the front end in a circular manner].
+If it is full then display Queue is full. 
+If the queue is not full then,  insert an element at the end of the queue.
+deQueue() This function is used to delete an element from the circular queue. In a circular queue, the element is always deleted from the front position. 
+Check whether the queue is Empty.
+If it is empty then display Queue is empty.
+If the queue is not empty, then get the last element and remove it from the queue. 

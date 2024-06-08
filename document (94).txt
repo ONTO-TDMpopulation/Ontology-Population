@@ -1,0 +1,13 @@
+A queue is a linear data structure that operates on a "first-in, first-out" (FIFO) principle, where the first item to be added to the queue is the first item to be removed. Here are some of the different operations commonly used with queues:
+
+Enqueue operation: adds an item to the end of the queue. It takes constant time O(1) on average.
+
+Dequeue operation: removes the item at the front of the queue. It takes constant time O(1) on average.
+
+Peek operation: returns the item at the front of the queue without removing it. It takes constant time O(1).
+
+Size operation: returns the number of items in the queue. It takes constant time O(1).
+
+Empty operation: returns a boolean value indicating whether the queue is empty or not. It takes constant time O(1).
+
+Queues are commonly used in a variety of computer science applications, such as process scheduling, message passing, and network packet routing. They are also used as a building block for more complex data structures, such as priority queues and double-ended queues. The FIFO ordering principle of queues makes them a useful tool for managing and organizing data in a variety of contexts.

@@ -1,0 +1,21 @@
+A Red-Black Tree is a self-balancing binary search tree where each node has an additional attribute: a color, which can be either red or black. The primary objective of these trees is to maintain balance during insertions and deletions, ensuring efficient data retrieval and manipulation.
+
+A Red-Black Tree have the following properties:
+
+Node Color: Each node is either red or black.
+Root Property: The root of the tree is always black.
+Red Property: Red nodes cannot have red children (no two consecutive red nodes on any path).
+Black Property: Every path from a node to its descendant null nodes (leaves) has the same number of black nodes.
+Leaf Property: All leaves (NIL nodes) are black.
+
+These properties ensure that the longest path from the root to any leaf is no more than twice as long as the shortest path, maintaining the tree’s balance and efficient performance.
+
+The basic operations on a Red-Black Tree include:
+
+Insertion: Inserting a new node in a Red-Black Tree involves a two-step process: performing a standard binary search tree (BST) insertion, followed by fixing any violations of Red-Black properties.
+
+Searching: Searching for a node in a Red-Black Tree is similar to searching in a standard Binary Search Tree (BST). The search operation follows a straightforward path from the root to a leaf, comparing the target value with the current node’s value and moving left or right accordingly.
+
+Deletion: Deleting a node from a Red-Black Tree also involves a two-step process: performing the BST deletion, followed by fixing any violations that arise.
+
+Rotation: Rotations are fundamental operations in maintaining the balanced structure of a Red-Black Tree (RBT). They help to preserve the properties of the tree, ensuring that the longest path from the root to any leaf is no more than twice the length of the shortest path. Rotations come in two types: left rotations and right rotations.

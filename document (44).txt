@@ -1,0 +1,3 @@
+the term difference list refers to a data structure representing a list with an efficient O(1) concatenation operation and conversion to a linked list in time proportional to its length. Difference lists can be implemented using first-class functions or using unification. Whether a difference list is more efficient than another list representations depends on usage patterns. If an algorithm builds a list by concatenating smaller lists, which are themselves built by concatenating still smaller lists, then use of difference lists can improve performance by effectively "flattening" the list building computations.
+
+

@@ -1,0 +1,6 @@
+A Generalized Suffix Tree is an extension to the suffix tree data structure that functions over multiple strings rather than a single string. It can represent all the suffixes from all the strings and hence, plays a crucial role in the comparison of multiple strings.
+
+While a standard suffix tree is built for a single string, a Generalized Suffix Tree encapsulates multiple strings. Each string is separated by a unique termination character to avoid overlap.
+
+The efficiency of operations on Generalized Suffix Trees parallels that of regular suffix trees with 
+search time and space requirement, and they have a wide array of applications. Particularly in the realm of DNA sequence data analysis, Generalized Suffix Trees provide a robust way to compare different DNA sequences and find common sub-sequences. Another notable application of Generalized Suffix Trees would be the identification of common substrings or patterns in a large set of documents or scripts, such as in plagiarism detection software and text mining applications.

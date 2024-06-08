@@ -1,0 +1,11 @@
+an m-ary tree (also known as n-ary, k-ary or k-way tree) is a rooted tree in which each node has no more than m children. A binary tree is the special case where m = 2, and a ternary tree is another case with m = 3 that limits its children to three.
+
+A full m-ary tree is an m-ary tree where within each level every node has either 0 or m children.
+
+A complete m-ary tree is an m-ary tree which is maximally space efficient.  It must be completely filled on every level except for the last level. However, if the last level is not complete, then all nodes of the tree must be "as far left as possible".
+
+A perfect m-ary tree is a full m-ary tree in which all leaf nodes are at the same depth.
+
+One of the applications of m-ary tree is creating a dictionary for validation of acceptable strings. In order to do that, let m be equal to the number of valid alphabets (e.g., number of letters of the English alphabet) with the root of the tree representing the starting point. Similarly, each of the children can have up to m children representing the next possible character in the string. Thus, characters along the paths can represent valid keys by marking the end character of the keys as "terminal node". 
+
+
