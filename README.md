@@ -1,2 +1,2 @@
 # Ontology-Population
-Onto-TDM domain ontology population
+The dataset and the ontology used for the Onto-TDM domain ontology population
