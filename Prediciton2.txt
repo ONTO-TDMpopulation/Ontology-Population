@@ -1,0 +1,9 @@
+In computer science, a skip list (or skiplist) is a probabilistic data structure that allows average complexity for search as well as average complexity for insertion within an ordered sequence of n
+elements. Thus it can get the best features of a sorted array (for searching) while maintaining a linked list-like structure that allows insertion, which is not possible with a static array.The operation of a Skip List involves the following steps: 
+
+empty skip list initialization: with a head node at level 0.
+element insertion: by randomly assigning levels to the new nodes. 
+
+element search: start at the head node and follow the highest-level path that does not overshoot the target element. element deletion: remove it from each level where it appears and adjust the links to maintain the Skip List's properties.
+
+Skip Lists provide an efficient way to maintain sorted lists with logarithmic complexity for search, insertion, and deletion, without the complexity of balanced trees. They also have a small memory footprint and are easy to implement. However, they have the potential for more cache misses compared to other data structures such as balanced trees, which can impact performance in some applications.

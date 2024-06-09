@@ -1,0 +1,24 @@
+In computer science, a k-d tree (short for k-dimensional tree) is a space-partitioning data structure for organizing points in a k-dimensional space. K-dimensional is that which concerns exactly k orthogonal axes or a space of any number of dimensions. k-d trees are a useful data structure for several applications, such as:
+
+Searches involving a multidimensional search key (e.g. range searches and nearest neighbor searches) &
+Creating point clouds.
+
+It is a data structure that can be used to partition a space into smaller regions, making it easy to find the closest point in that space to a given query point. 
+
+The idea behind a K-Dimensional Tree is to partition a space into smaller regions using hyperplanes (planes that extend indefinitely in all directions). 
+
+The hyperplanes are chosen to be perpendicular to one of the axes of the k-dimensional space. Each node in the tree represents a region of the space, defined by a hyperplane and a set of points that lie on either side of it.
+
+The construction of a K-Dimensional Tree: involves recursively partitioning the space by alternating between the dimensions of the space. At each step, the algorithm selects a hyperplane that divides the space into two halves. The points that are on one side of the hyperplane are added to the left subtree, and the points on the other side are added to the right subtree. 
+
+This process continues until all the points have been partitioned. To search for the nearest neighbor to a given query point, the algorithm starts at the root of the tree and recursively descends through the tree. At each node, it determines which side of the hyperplane the query point lies on and continues the search in that subtree. The algorithm also keeps track of the closest point seen so far and updates it if a closer point is found. 
+
+The operation of a K-Dimensional Tree involves several key steps: 
+
+tree construction:  by recursively partitioning the space into smaller regions. nearest neighbor search:  by traversing the tree, selecting the appropriate subtree at each node based on the location of the query point relative to the hyperplane. 
+
+closest point update: seen so far at each step and backtrack if necessary to explore the other side of the hyperplane. Terminate the search when the entire tree has been explored or the closest point found is within an acceptable distance threshold. 
+
+K-Dimensional Trees are commonly used in applications such as computer graphics, machine learning, and geographic information systems, where efficient nearest-neighbor search is important.
+
+

@@ -1,0 +1,9 @@
+A quadtree is a tree data structure in which each internal node has exactly four children. Quadtrees are the two-dimensional analog of octrees and are most often used to partition a two-dimensional space by recursively subdividing it into four quadrants or regions. The data associated with a leaf cell varies by application, but the leaf cell represents a "unit of interesting spatial information".
+
+The Quadtree is commonly used in computer graphics, geographic information systems, and other applications that involve the representation of spatial data.The operation of a Quadtree involves the following steps: 
+
+root node initialisation: to represent the entire two-dimensional space. node dividing to subregions, and create child nodes for each subregion.
+
+Continue dividing the nodes recursively until each node represents a small enough region. Store the data associated with each node in the quadtree. 
+
+quadtree query: start at the root node and recursively search the appropriate child nodes based on the query region. Return the data associated with the leaf nodes that intersect the query region. The Quadtree provides an efficient way to store and query two-dimensional data, and can significantly reduce the computational cost of many spatial algorithms.
