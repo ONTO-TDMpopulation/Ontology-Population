@@ -3529,9 +3529,9 @@
     
 
 
-    <!-- http://www.owl-ontologies.com/Ontology1309777211.owl#Find_Minimum_path_length -->
+    <!-- http://www.owl-ontologies.com/Ontology1309777211.owl#Find_short_path -->
 
-    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1309777211.owl#Find_Minimum_path_length">
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/Ontology1309777211.owl#Find_short_path">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/Ontology1309777211.owl#Knowledge_item"/>
         <rdfs:label>find minimum path length</rdfs:label>
     </owl:NamedIndividual>
