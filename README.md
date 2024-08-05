@@ -22,7 +22,8 @@ concepts, relationships, functions, and rules.
 The resulting ontology can be found in the ontology directory.
 
 ## Code
-1-The main Python script for text extraction is named text_extraction.py. It performs the following steps:
+1-Text Extraction
+The main Python script for text extraction is named text_extraction.py. It performs the following steps:
 
 Preprocesses text by tokenizing, cleaning, and lemmatizing.
 Trains a Word2Vec model on the text corpus.
@@ -30,9 +31,11 @@ Computes a similarity matrix between phrases using the trained Word2Vec model.
 Converts the similarity matrix into a graph and applies TextRank to rank phrases.
 Extracts and saves important phrases to a CSV file named phrases.csv.
 
-2-The machine learning model training and prediction is implemented in machine-learning-model.py. In this script, a random forest classifier is trained using annotated data and word vector features extracted from the dataset.
+2-Machine Learning Model
+The machine learning model training and prediction is implemented in machine-learning-model.py. In this script, a random forest classifier is trained using annotated data and word vector features extracted from the dataset.
 
-3-The extracted and annotated data are migrated to the ontology using the OwlReady2 API. This process is handled by the owlready2.py script, which ensures that the extracted and annotated words and phrases are accurately placed within the ontology, respecting the different classes and relationships defined in ONTO-TDM.
+3-Ontology Population with instances
+The extracted and annotated data are migrated to the ontology using the OwlReady2 API. This process is handled by the owlready2.py script, which ensures that the extracted and annotated words and phrases are accurately placed within the ontology, respecting the different classes and relationships defined in ONTO-TDM.
 
 
 
