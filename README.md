@@ -1,5 +1,4 @@
 # Ontology-Population
-# Text Extraction
 
 This repository contains dataset, ontology and a python script for ontology population using textrank and word2vec algorithms.
 
