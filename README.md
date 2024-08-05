@@ -37,5 +37,8 @@ The extracted and annotated data are migrated to the ontology using OwlReady2 ap
 
 ## Notes
 Ensure that stop words.txt is in the same directory as your script or provide the correct path to it. it can be located in the directory as stopwords.txt.
+
 Adjust the similarity threshold in the matrix_to_graph function if needed.
+
+
 
