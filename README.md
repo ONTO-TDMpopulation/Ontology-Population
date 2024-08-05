@@ -1,7 +1,7 @@
 # Ontology-Population
 # Text Extraction
 
-This repository contains a Python script for extracting important phrases from text using Word2Vec and TextRank algorithms.
+This repository contains dataset, ontology and a python script for ontology population using textrank and word2vec algorithms.
 
 ## Requirements
 
@@ -13,10 +13,14 @@ This repository contains a Python script for extracting important phrases from t
 - SpaCy
 
 ## Dataset
-The dataset used for testing the script is located in the dataset directory. Each text file in this directory should have a .txt extension. The dataset contains various textual documents that are processed to extract important phrases.
+
+The dataset used for testing the script is located in the dataset directory. It consists of texts collected from a variety of sources, including Wikipedia, online articles, specialized websites, and forums where domain experts and mentors contribute valuable knowledge. Additionally, we have included online lecture slides from educational institutions, selected for their relevance to algorithms and data structures discipline. This ensures that the dataset covers both foundational and advanced concepts comprehensively. Each file in this directory has a .txt extension. The dataset comprises diverse textual documents, which are processed to extract important phrases.
 
 ## Ontology
-The ontology used is based on the core ontology ONTO-TDM and includes additional domain-specific terms and relations. The resulting ontology can be found in the ontology directory.
+The ontology used is based on the core ontology ONTO-TDM (Ontology for Teaching Domaon Modeling) specifically designed to represent and describe a discipline, focusing on its
+application in learning-by-doing scenarios. The primary aim of this ontology is to provide a comprehensive framework that captures the essential elements of a discipline, including its
+concepts, relationships, functions, and rules.
+The resulting ontology can be found in the ontology directory.
 
 ## Code
 The main Python script for text extraction is named text_extraction.py. It performs the following steps:
@@ -30,3 +34,4 @@ Extracts and saves important phrases to a CSV file named phrases.csv.
 ## Notes
 Ensure that stop words.txt is in the same directory as your script or provide the correct path to it. it can be located in the directory as stopwords.txt.
 Adjust the similarity threshold in the matrix_to_graph function if needed.
+
