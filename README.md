@@ -13,7 +13,7 @@ This repository contains a Python script for extracting important phrases from t
 - SpaCy
 
 ## Dataset
-The dataset used for testing the script is located in the corpus directory. Each text file in this directory should have a .txt extension. The dataset contains various textual documents that are processed to extract important phrases.
+The dataset used for testing the script is located in the dataset directory. Each text file in this directory should have a .txt extension. The dataset contains various textual documents that are processed to extract important phrases.
 
 ## Ontology
 The ontology used is based on the core ontology ONTO-TDM and includes additional domain-specific terms and relations. The resulting ontology can be found in the ontology directory.
