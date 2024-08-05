@@ -31,6 +31,10 @@ Computes a similarity matrix between phrases using the trained Word2Vec model.
 Converts the similarity matrix into a graph and applies TextRank to rank phrases.
 Extracts and saves important phrases to a CSV file named phrases.csv.
 
+The machine learning model training and prediction is named machine-learning-model.py, where a random forest classifier is trained over annotated data and words vector features.
+
+The extracted and annotated data are migrated to the ontology using OwlReady2 api and the python script for that is named owlready2.py.
+
 ## Notes
 Ensure that stop words.txt is in the same directory as your script or provide the correct path to it. it can be located in the directory as stopwords.txt.
 Adjust the similarity threshold in the matrix_to_graph function if needed.
