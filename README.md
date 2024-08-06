@@ -1,6 +1,6 @@
 # Ontology-Population
 
-This repository contains dataset, ontology and python scripts for ontology population using textrank and word2vec algorithms.
+This repository contains dataset, ontology and python scripts for ontology population.
 
 ## Requirements
 
@@ -19,7 +19,7 @@ The dataset used for testing the script is located in the dataset directory "htt
 The ontology used is based on the core ontology ONTO-TDM (Ontology for Teaching Domaon Modeling) specifically designed to represent and describe a discipline, focusing on its
 application in learning-by-doing scenarios. The primary aim of this ontology is to provide a comprehensive framework that captures the essential elements of a discipline, including its
 concepts, relationships, functions, and rules.
-The resulting ontology can be found in the ontology directory.
+The resulting ontology can be found in the ontology directory "https://github.com/ONTO-TDMpopulation/Ontology-Population/tree/main/Ontology".
 
 ## Code
 1. Text Extraction
