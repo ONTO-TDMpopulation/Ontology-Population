@@ -24,7 +24,7 @@ The resulting ontology can be found in the ontology directory "https://github.co
 ## Code
 1. Text Extraction
 
-The main Python script for text extraction is named text_extraction.py. It performs the following steps:
+The main Python script for text extraction is named text_extraction.py "https://github.com/ONTO-TDMpopulation/Ontology-Population/blob/main/text-extraction.py". It performs the following steps:
 
 - Preprocesses text by tokenizing, cleaning, and lemmatizing.
 - Trains a Word2Vec model on the text corpus.
