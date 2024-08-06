@@ -38,7 +38,7 @@ The machine learning model training and prediction are implemented in machine-le
 
 4. Ontology Population with Instances
    
-The extracted and annotated data are migrated to the ontology using the OwlReady2 API. This process is managed by the owlready2.py script, which ensures that the extracted and annotated words and phrases are accurately integrated into the ontology, respecting the different classes and relationships defined in ONTO-TDM.
+The extracted and annotated data are migrated to the ontology using the OwlReady2 API. This process is managed by the owlready2.py script "https://github.com/ONTO-TDMpopulation/Ontology-Population/blob/main/Owlready2.py", which ensures that the extracted and annotated words and phrases are accurately integrated into the ontology, respecting the different classes and relationships defined in ONTO-TDM.
 
 
 
