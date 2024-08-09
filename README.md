@@ -10,6 +10,7 @@ This repository contains dataset, ontology and python scripts for ontology popul
 - NetworkX
 - scikit-learn
 - SpaCy
+- OwlReady2 api
 
 ## Dataset
 
