@@ -14,7 +14,7 @@ This repository contains dataset, ontology and python scripts for ontology popul
 
 ## Dataset
 
-The dataset used for testing the script is located in the dataset directory "https://github.com/ONTO-TDMpopulation/Ontology-Population/tree/main/Dataset". It consists of texts collected from a variety of sources, including Wikipedia, online articles, specialized websites, and forums where domain experts and mentors contribute valuable knowledge. Additionally, we have included online lecture slides from educational institutions, selected for their relevance to algorithms and data structures discipline. This ensures that the dataset covers both foundational and advanced concepts comprehensively. Each file in this directory has a .txt extension. The dataset comprises diverse textual documents, which are processed to extract important phrases.
+The dataset used for testing the script is located in the dataset directory "https://github.com/ONTO-TDMpopulation/Ontology-Population/tree/main/Dataset". It consists of texts collected from a variety of sources, including Wikipedia, online articles, specialized websites related to algorithms and data structures discipline. The dataset covers both foundational and advanced concepts comprehensively from this domain. Each file in this directory has a .txt extension. The dataset comprises diverse textual documents, which are processed to extract important phrases.
 
 ## Ontology
 The ontology used is based on the core ontology ONTO-TDM (Ontology for Teaching Domaon Modeling) specifically designed to represent and describe a discipline, focusing on its
